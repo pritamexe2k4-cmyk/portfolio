@@ -33,19 +33,22 @@ const AppIconContent = ({ appId, size }) => {
     case 'hevy':
       return (
         <div className="w-full h-full flex items-center justify-center" style={{ borderRadius: '22%', background: '#1a1a1a' }}>
-          <svg viewBox="0 0 40 40" width="55%" height="55%">
-            <rect x="8" y="16" width="5" height="8" rx="1" fill="#FF3B30" />
-            <rect x="27" y="16" width="5" height="8" rx="1" fill="#FF3B30" />
-            <rect x="13" y="18" width="14" height="4" rx="1" fill="#FF3B30" />
-            <rect x="5" y="18" width="3" height="4" rx="0.5" fill="#FF3B30" />
-            <rect x="32" y="18" width="3" height="4" rx="0.5" fill="#FF3B30" />
+          <svg viewBox="0 0 40 40" width="58%" height="58%">
+            {/* Official Hevy interlocking H logo */}
+            <path d="M10 8 L10 20 Q10 22 12 22 L16 22 Q18 22 18 20 L18 14 Q18 12 20 12 L22 12 Q24 12 24 14 L24 20 Q24 22 22 22 L22 32 Q22 34 24 34 L28 34 Q30 34 30 32 L30 20 Q30 18 28 18 L24 18 Q22 18 22 20 L22 26 Q22 28 20 28 L18 28 Q16 28 16 26 L16 20 Q16 18 18 18 L18 8 Q18 6 16 6 L12 6 Q10 6 10 8Z" fill="white" />
           </svg>
         </div>
       );
     case 'spotify':
       return (
-        <div className="w-full h-full flex items-center justify-center" style={{ borderRadius: '50%', background: '#1DB954' }}>
-          <Music size={iconSize} color="white" strokeWidth={2.5} />
+        <div className="w-full h-full flex items-center justify-center" style={{ borderRadius: '22%', background: '#191414' }}>
+          <svg viewBox="0 0 48 48" width="80%" height="80%">
+            {/* Official Spotify circle + waves logo */}
+            <circle cx="24" cy="24" r="22" fill="#1DB954" />
+            <path d="M34.4 21.8c-5.7-3.4-15.1-3.7-20.5-2-.9.3-1.8-.2-2.1-1.1-.3-.9.2-1.8 1.1-2.1 6.2-1.9 16.5-1.5 23 2.4.8.5 1.1 1.5.6 2.3-.5.7-1.5 1-2.3.5h.2z" fill="white" />
+            <path d="M32.8 26.2c-.4.6-1.2.9-1.9.5-4.7-2.9-11.9-3.7-17.5-2-.7.2-1.5-.2-1.7-.9-.2-.7.2-1.5.9-1.7 6.4-1.9 14.3-1 19.7 2.3.6.4.8 1.2.5 1.8z" fill="white" />
+            <path d="M14.3 30c-.6.2-1.2-.1-1.4-.7-.2-.6.1-1.2.7-1.4 5-1.5 10.4-.8 14.6 1.7.5.3.7 1 .4 1.5-.3.5-1 .7-1.5.4-3.7-2.2-8.6-2.8-12.8-1.5z" fill="white" />
+          </svg>
         </div>
       );
     case 'twitter':

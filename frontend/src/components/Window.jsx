@@ -10,6 +10,7 @@ const TrafficLights = ({ onClose, onMinimize, onMaximize }) => {
       className="flex items-center gap-2"
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
+      onPointerDown={(e) => e.stopPropagation()}
     >
       <button
         className="w-3 h-3 rounded-full flex items-center justify-center border-none cursor-pointer"

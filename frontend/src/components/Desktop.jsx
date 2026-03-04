@@ -117,12 +117,12 @@ const Desktop = () => {
       onContextMenu={handleContextMenu}
     >
       {/* Grid Background */}
-      <div className="absolute inset-0" style={{ backgroundColor: '#f0f0f0' }}>
+      <div className="absolute inset-0" style={{ backgroundColor: '#f7f7f7' }}>
         <svg className="w-full h-full" xmlns="http://www.w3.org/2000/svg">
           <defs>
             <pattern id="desktopGrid" width="24" height="24" patternUnits="userSpaceOnUse">
-              <line x1="24" y1="0" x2="24" y2="24" stroke="#d4d4d4" strokeWidth="0.5" />
-              <line x1="0" y1="24" x2="24" y2="24" stroke="#d4d4d4" strokeWidth="0.5" />
+              <line x1="24" y1="0" x2="24" y2="24" stroke="#e0e0e0" strokeWidth="0.4" />
+              <line x1="0" y1="24" x2="24" y2="24" stroke="#e0e0e0" strokeWidth="0.4" />
             </pattern>
           </defs>
           <rect width="100%" height="100%" fill="url(#desktopGrid)" />
