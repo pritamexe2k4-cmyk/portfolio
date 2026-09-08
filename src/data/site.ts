@@ -13,7 +13,7 @@ export const site = {
     after: " for internships & full-time.",
   },
   incluhubLive: "https://inclu-pilot-three.vercel.app",
-  aboutPhotos: ["/media/about-a.png", "/media/about-b.png"] as const,
+  aboutPhotos: ["/media/about-a.jpg", "/media/about-b.jpg"] as const,
 };
 
 export const projects = [
@@ -21,8 +21,8 @@ export const projects = [
     slug: "student-dashboard",
     n: "01",
     title: "Student Dashboard",
-    image: "/media/p1.png",
-    image2: "/media/work-1.png",
+    image: "/media/p1.jpg",
+    image2: "/media/work-1.jpg",
     blurb:
       "Role-based education ops — Admin, Educator, Student. Supabase Auth and RLS, QR check-in, admin broadcast.",
     live: "https://incluhub-dashboard-rho.vercel.app",
@@ -39,8 +39,8 @@ export const projects = [
     slug: "production-rag",
     n: "02",
     title: "Production RAG",
-    image: "/media/p2.png",
-    image2: "/media/work-2.png",
+    image: "/media/p2.jpg",
+    image2: "/media/work-2.jpg",
     blurb:
       "Grounded document Q&A. Chunk, retrieve, generate with citations. LangGraph routes retrieve vs refuse.",
     live: null,
@@ -57,8 +57,8 @@ export const projects = [
     slug: "agentic-ops",
     n: "03",
     title: "Agentic Ops",
-    image: "/media/p3.png",
-    image2: "/media/work-3.png",
+    image: "/media/p3.jpg",
+    image2: "/media/work-3.jpg",
     blurb:
       "Multi-agent backend: ingest an event, call tools or APIs, return structured output on one POST.",
     live: null,

@@ -39,7 +39,7 @@ function Hero() {
         {site.hero.after}
       </h1>
       <div className="photo-zoom relative w-full overflow-hidden rounded-card bg-photo">
-        <img src="/media/hero.png" alt="" className="aspect-[606/564] h-auto w-full object-cover" />
+        <img src="/media/hero.jpg" alt="" className="aspect-[606/564] h-auto w-full object-cover" />
       </div>
     </section>
   );
@@ -100,7 +100,7 @@ function IncluHub() {
           rel="noreferrer"
           className="photo-zoom group relative block overflow-hidden rounded-card bg-photo"
         >
-          <img src="/media/featured.png" alt="IncluHub product" className="aspect-[674/376] w-full object-cover" />
+          <img src="/media/featured.jpg" alt="IncluHub product" className="aspect-[674/376] w-full object-cover" />
         </a>
       </div>
     </section>
