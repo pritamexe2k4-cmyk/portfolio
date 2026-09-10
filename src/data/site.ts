@@ -6,7 +6,7 @@ export const site = {
   email: "pritam.exe2k4@gmail.com",
   github: "https://github.com/pritamexe2k4-cmyk",
   linkedin: "https://www.linkedin.com/in/preetam-naik2k4",
-  resume: "https://github.com/pritamexe2k4-cmyk/resume",
+  resume: "/resume.pdf",
   hero: {
     before: "I'm Preetam, an AI engineer & systems builder based in Hyderabad. ",
     available: "Available",

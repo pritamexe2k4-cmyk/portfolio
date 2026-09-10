@@ -1,13 +1,13 @@
-# Preetam — portfolio
+# Preetam — portfolio + resume
 
-Personal site for [Preetam](https://github.com/pritamexe2k4-cmyk): AI engineer & systems builder in Hyderabad.
+One repo: the Lovable personal site **and** the LaTeX resume.
 
-Layout follows the Arnau Ros Figma community template; copy, links, and projects are mine.
-
-- Live: (Vercel, this repo)
-- Stack: Vite, React 19, TanStack Router, Tailwind v4
+- **Site** — Vite / React 19 / TanStack Router / Tailwind v4 (this root)
+- **Resume** — [`resume/`](./resume/) (`resume.tex` + PDFs). Direct download: [`public/resume.pdf`](./public/resume.pdf)
 
 ```bash
 npm install
 npm run dev
 ```
+
+GitHub: https://github.com/pritamexe2k4-cmyk/portfolio
