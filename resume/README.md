@@ -1,13 +1,13 @@
-# Resume
+# Resumes (role variants)
 
-LaTeX source and PDFs for Preetam — AI/ML fresher.
+One-page PDFs for applications (Sep 2026):
 
-## Download
+| File | Role |
+|------|------|
+| [Preetam_Resume_ML_Engineer.pdf](./Preetam_Resume_ML_Engineer.pdf) | ML Engineer (north star; DBI designing \& building; no Brum) |
+| [Preetam_Resume_GenAI_Engineer.pdf](./Preetam_Resume_GenAI_Engineer.pdf) | GenAI Engineer (Brum designing \& building + IncluHub dashboard) |
+| [Preetam_Resume_Intern.pdf](./Preetam_Resume_Intern.pdf) | Intern / Trainee (softer; IncluHub primary) |
 
-- [Preetam_Resume.pdf](./Preetam_Resume.pdf)
-- [resume.pdf](./resume.pdf) (same file)
-- Site download: `/resume.pdf` on the live portfolio
+Also kept: `Preetam_Resume.pdf` / `resume.pdf` (earlier single resume).
 
-Compile: `pdflatex resume.tex`
-
-Updated: 2026-09-06
+Honesty: DBI/Brum are designing \& building only — not claimed as shipped production. IncluHub metrics locked.
