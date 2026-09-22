@@ -1,13 +1,14 @@
-# Resumes (role variants)
+# Resume
 
-One-page PDFs for applications (Sep 2026):
+Source: `resume.tex` (pdflatex / tectonic).
 
-| File | Role |
-|------|------|
-| [Preetam_Resume_ML_Engineer.pdf](./Preetam_Resume_ML_Engineer.pdf) | ML Engineer (north star; DBI designing \& building; no Brum) |
-| [Preetam_Resume_GenAI_Engineer.pdf](./Preetam_Resume_GenAI_Engineer.pdf) | GenAI Engineer (Brum designing \& building + IncluHub dashboard) |
-| [Preetam_Resume_Intern.pdf](./Preetam_Resume_Intern.pdf) | Intern / Trainee (softer; IncluHub primary) |
+**Current brand:** ML Engineer. **Projects on resume:** Chat_Bot, Digital Behaviour Intelligence (DBI), IncluHub Dashboard only.
 
-Also kept: `Preetam_Resume.pdf` / `resume.pdf` (earlier single resume).
+Compile:
 
-Honesty: DBI/Brum are designing \& building only — not claimed as shipped production. IncluHub metrics locked.
+```bash
+cd resume
+# pdflatex resume.tex   # or: tectonic resume.tex
+```
+
+Outputs: `resume.pdf`, copy to `Preetam_Resume.pdf` and `../public/resume.pdf` for the site download.
