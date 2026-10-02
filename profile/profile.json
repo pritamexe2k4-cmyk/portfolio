@@ -1,0 +1,378 @@
+{
+  "_meta": {
+    "last_updated": "2026-10-02",
+    "note": "Every value comes from Preetam's resumes, project READMEs, the portfolio site, or facts he gave directly. 'TODO' means not yet known. Do not guess values.",
+    "decisions": [
+      "Headline = ML Engineer",
+      "Chat_Bot stack = Node/Express + OpenAI Responses API on Azure"
+    ]
+  },
+  "identity": {
+    "full_name": "Preetam Naik",
+    "short_name": "Preetam",
+    "first_name": "Preetam",
+    "last_name": "Naik",
+    "headline": "ML Engineer",
+    "date_of_birth": "TODO",
+    "gender": "TODO",
+    "nationality": "TODO",
+    "current_location": "Hyderabad, India",
+    "permanent_address": "TODO",
+    "current_address": "TODO",
+    "pin_code": "TODO"
+  },
+  "contact": {
+    "email": "pritam.exe2k4@gmail.com",
+    "phone": "+91 9676290504",
+    "alternate_phone": "TODO",
+    "whatsapp": "TODO"
+  },
+  "links": {
+    "portfolio": "https://pritamexeportfolio.lovable.app",
+    "github": "https://github.com/pritamexe2k4-cmyk",
+    "linkedin": "https://www.linkedin.com/in/preetam-naik2k4",
+    "x_twitter_handle": "@preetam03296112",
+    "x_twitter_url": "https://x.com/preetam03296112",
+    "instagram_personal": "TODO",
+    "leetcode": "TODO",
+    "kaggle": "TODO",
+    "hackerrank": "TODO",
+    "codechef": "TODO",
+    "medium_blog": "TODO",
+    "related": {
+      "elevx": "https://www.elevx.in/",
+      "street_cause_vnr_vjiet_instagram": "https://www.instagram.com/streetcausevnrvjiet/"
+    }
+  },
+  "education": [
+    {
+      "level": "B.Tech",
+      "institute": "VNR VJIET",
+      "institute_full_name": "TODO",
+      "city": "Hyderabad",
+      "university": "TODO",
+      "degree": "B.Tech in Computer Science and Engineering (AI/ML)",
+      "branch": "CSE (AI/ML)",
+      "start_year": 2022,
+      "end_year": 2026,
+      "graduation_year": 2026,
+      "graduation_month": "TODO",
+      "status": "TODO",
+      "cgpa": "7.5",
+      "cgpa_scale": "TODO",
+      "percentage": "TODO",
+      "backlogs": "TODO",
+      "relevant_coursework": [
+        "Machine Learning",
+        "Artificial Intelligence",
+        "Data Structures",
+        "Database Systems",
+        "Software Engineering"
+      ]
+    },
+    {
+      "level": "12th (Class XII)",
+      "score": "80%",
+      "school": "TODO",
+      "board": "TODO",
+      "year": "TODO",
+      "stream": "TODO"
+    },
+    {
+      "level": "10th (Class X)",
+      "score": "70%",
+      "school": "TODO",
+      "board": "TODO",
+      "year": "TODO"
+    }
+  ],
+  "experience": [
+    {
+      "company": "IncluHub",
+      "title": "AI Intern → AI Orchestrator",
+      "location": "Hyderabad",
+      "start": "Mar 2026",
+      "end": "TODO: confirm — Aug 2026 (user-provided; repo resume.tex; 2026-09-14 resume; portfolio-site resume) vs Sep 2026 (current Drive PDFs; archived 2026-09-30 PDFs)",
+      "employment_type": "Internship → role (exact type TODO)",
+      "company_description": "Creative education school + fashion social / hiring network",
+      "highlights": [
+        "Built an in-house CRM for Meta ad marketing leads so leads from ~8–9 live campaigns landed in one place instead of scattered sheets/inboxes.",
+        "Designed and shipped the company website; also built smaller Chrome-connected CRM / ops tools used by the sales team.",
+        "Automated recurring workflows with n8n and Google Apps Script / Sheets to cut manual campaign and lead handling.",
+        "Connected Meta Graph, WhatsApp, and Ads APIs into one CRM workflow.",
+        "Owned the React Native + Firebase + GCP fashion app: RBAC, multi-store data, CI via GitHub Actions; live to ~1,000–3,000 users (earlier resume versions).",
+        "Built the IncluHub Student Dashboard (Admin / Educator / Student); live to ~40–50 students and ~4–5 educators (earlier resume versions).",
+        "Ran competitor and market research to brief the team on positioning and customer problems."
+      ],
+      "skills": [
+        "Meta Graph API",
+        "WhatsApp API",
+        "n8n",
+        "Google Apps Script",
+        "REST APIs",
+        "Claude Code",
+        "OpenAI Codex"
+      ],
+      "reason_for_leaving": "TODO",
+      "stipend_or_ctc": "TODO",
+      "manager_reference": "TODO"
+    },
+    {
+      "company": "Street Cause, VNR VJIET",
+      "title": "HR Head",
+      "location": "Hyderabad",
+      "start": "Jan 2024",
+      "end": "Dec 2024",
+      "employment_type": "Volunteer / leadership (national NGO campus chapter)",
+      "highlights": [
+        "Led campus HR for the VNR VJIET chapter: recruiting, interviews, onboarding, and volunteer ops.",
+        "Grew the chapter membership — TODO: confirm numbers: 9 → 30+ (~230%) (older resumes, portfolio site) vs ~9–10 → ~60 (current Drive resumes).",
+        "Staffed drives and campus events reaching 300+ people per flagship programme; initiated programmes such as Run for a Cause."
+      ],
+      "chapter_growth": "TODO: confirm — '9 → 30+ (~230%)' vs '~9–10 → ~60'"
+    }
+  ],
+  "extracurriculars": [
+    {
+      "name": "ElevX",
+      "role": "Branding & Website",
+      "url": "https://www.elevx.in/",
+      "summary": "Partnered with a web developer to ship the ElevX brand site on Shopify; owned wording, page structure, imagery, visual branding, and basic Meta marketing setup."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Chat_Bot",
+      "year": 2026,
+      "repo": "https://github.com/pritamexe2k4-cmyk/Chat_Bot",
+      "live": "https://preetam-chatbot-2026-bjgwafbhcge5cwdq.centralindia-01.azurewebsites.net/",
+      "one_liner": "Password-gated Node/Express chatbot on the OpenAI Responses API: system prompt, 12-message history window, signed HttpOnly cookie sessions, rate limits, /api/chat + /health, GitHub Actions CI and manually gated Azure App Service deploys.",
+      "stack": [
+        "JavaScript",
+        "Node.js",
+        "Express",
+        "OpenAI API",
+        "GitHub Actions",
+        "Azure App Service"
+      ],
+      "stack_decision": "Confirmed by Preetam: Node.js/Express + OpenAI Responses API, deployed on Azure App Service (not Python/FastAPI)."
+    },
+    {
+      "name": "Digital Behaviour Intelligence (DBI)",
+      "year": 2026,
+      "repo": "https://github.com/pritamexe2k4-cmyk/digital-behaviour-intelligence",
+      "live": null,
+      "one_liner": "Classical-ML pipeline (in design/build): raw events → entity profiles (recency/frequency/intensity/diversity/trend) → segments → change features → supervised engagement (Increasing / Stable / Declining). Not production ML yet.",
+      "stack": [
+        "Python",
+        "Pandas",
+        "NumPy",
+        "scikit-learn"
+      ]
+    },
+    {
+      "name": "IncluHub Dashboard (Student Dashboard)",
+      "year": 2026,
+      "repo": "https://github.com/pritamexe2k4-cmyk/inclu_dashboard",
+      "live": "https://incluhub-dashboard-rho.vercel.app",
+      "one_liner": "Role-based education ops app (Admin / Educator / Student) with Supabase Auth + RLS, institutes, stages, portfolio review, studio QR check-in; 22 SQL migrations + server actions on Vercel.",
+      "stack": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Supabase",
+        "Postgres",
+        "Tailwind CSS",
+        "Vercel"
+      ]
+    },
+    {
+      "name": "Portfolio",
+      "year": 2026,
+      "repo": "https://github.com/pritamexe2k4-cmyk/portfolio",
+      "live": "https://pritamexeportfolio.lovable.app",
+      "one_liner": "Personal site plus LaTeX resume source.",
+      "stack": [
+        "Vite",
+        "React",
+        "TypeScript",
+        "TanStack Router",
+        "Tailwind CSS"
+      ]
+    },
+    {
+      "name": "IncluHub website (work project)",
+      "year": 2026,
+      "repo": "https://github.com/contact561/website (IncluHub org repo)",
+      "live": "https://incluhub.com",
+      "one_liner": "IncluHub's official website with a RAG chatbot ('IncluHub AI Manager') using Supabase full-text search and Groq inference.",
+      "stack": [
+        "React",
+        "Vite",
+        "Supabase",
+        "Groq",
+        "Vercel Edge Functions"
+      ]
+    }
+  ],
+  "projects_mentioned_unverified": [
+    {
+      "name": "Brum — Voice Knowledge Assistant",
+      "source": "resume dated 2026-09-14 and portfolio site.ts",
+      "repo": "https://github.com/pritamexe2k4-cmyk/brum-voice-assistant",
+      "status": "repo returns 404 (missing or private)"
+    },
+    {
+      "name": "Production RAG",
+      "source": "portfolio site.ts",
+      "repo": "https://github.com/pritamexe2k4-cmyk/production-rag",
+      "status": "repo returns 404 (missing or private)"
+    },
+    {
+      "name": "Agentic Ops",
+      "source": "portfolio site.ts",
+      "repo": "https://github.com/pritamexe2k4-cmyk/agentic-ops",
+      "status": "repo returns 404 (missing or private)"
+    }
+  ],
+  "skills": {
+    "preferred_stack_line": "Python for ML and backends — Pandas, scikit-learn, FastAPI — plus Azure OpenAI for LLM APIs; for product, Next.js, TypeScript, Supabase/Postgres, Docker, Vercel.",
+    "languages": [
+      "Python",
+      "SQL",
+      "JavaScript",
+      "TypeScript"
+    ],
+    "ml_data": [
+      "NumPy",
+      "Pandas",
+      "scikit-learn",
+      "TensorFlow",
+      "Keras",
+      "feature engineering",
+      "EDA",
+      "clustering",
+      "classification",
+      "train/test/CV",
+      "metrics"
+    ],
+    "llm_genai": [
+      "Azure OpenAI",
+      "OpenAI Responses API",
+      "prompt engineering",
+      "chat history windowing",
+      "LangChain (learning)",
+      "LangGraph (learning)",
+      "LangSmith (learning)"
+    ],
+    "apis_backend": [
+      "FastAPI",
+      "Node.js",
+      "Express",
+      "REST APIs"
+    ],
+    "web_product": [
+      "Next.js",
+      "React",
+      "React Native",
+      "Supabase (Auth, RLS, RPC)",
+      "Postgres",
+      "Firebase"
+    ],
+    "cloud_devops": [
+      "Azure (App Service)",
+      "GCP",
+      "Vercel",
+      "Docker",
+      "Git",
+      "GitHub",
+      "GitHub Actions"
+    ],
+    "automation_tools": [
+      "n8n",
+      "Google Apps Script",
+      "Meta Graph API",
+      "WhatsApp API",
+      "Claude Code",
+      "OpenAI Codex",
+      "Shopify"
+    ],
+    "interests": [
+      "Creative thinking",
+      "fitness",
+      "chess",
+      "books",
+      "research"
+    ]
+  },
+  "resumes": {
+    "ml_engineer": {
+      "drive_id": "1r_Gqz45p-4Y1e9PEKVwrD_Es3MXD8yrn",
+      "url": "https://drive.google.com/file/d/1r_Gqz45p-4Y1e9PEKVwrD_Es3MXD8yrn/view",
+      "primary": true
+    },
+    "genai": {
+      "drive_id": "1HRD39Ckd0zCjUtVCCd6qPLgpWX_Yb9rK",
+      "url": "https://drive.google.com/file/d/1HRD39Ckd0zCjUtVCCd6qPLgpWX_Yb9rK/view"
+    },
+    "data_analyst_scientist": {
+      "drive_id": "1TajZOSaZ3kEKzWxcXhP-ukyvm1ZDCt9C",
+      "url": "https://drive.google.com/file/d/1TajZOSaZ3kEKzWxcXhP-ukyvm1ZDCt9C/view"
+    },
+    "archived_2026_09_30": {
+      "ml_engineer": "https://drive.google.com/file/d/1U6HLOWbavIxtdQNeIE7PW5YnXGNFotkX/view",
+      "genai": "https://drive.google.com/file/d/1UYK6phq7eKCWVd1YW5VfazpCkSQgnjSf/view",
+      "data_analyst_scientist": "https://drive.google.com/file/d/1aMUqsZmxBlCc0I_-VzOxU1bm9Emfk6UJ/view"
+    },
+    "portfolio_site_resume": "https://pritamexeportfolio.lovable.app/Preetam-Naik-Resume.pdf"
+  },
+  "certifications": "TODO",
+  "achievements": "TODO",
+  "publications": "TODO",
+  "languages_spoken": "TODO",
+  "application_answers": {
+    "current_ctc": "TODO",
+    "expected_ctc": "TODO",
+    "notice_period": "TODO",
+    "earliest_start_date": "TODO",
+    "availability": "TODO",
+    "why_ml": "TODO",
+    "why_this_company": "TODO",
+    "strengths": "TODO",
+    "weaknesses": "TODO",
+    "work_authorization": "TODO",
+    "requires_visa_sponsorship": "TODO",
+    "how_did_you_hear": "TODO",
+    "willing_to_relocate": "Yes — Bangalore or Pune",
+    "willing_to_work_remote": "Yes — remote within India"
+  },
+  "job_preferences": {
+    "target_role": "ML Engineer",
+    "also_open_to": [
+      "Applied AI / GenAI Engineer",
+      "Data Analyst / Data Scientist"
+    ],
+    "employment_types": [
+      "Full-time",
+      "Paid internship"
+    ],
+    "not_interested_in": [
+      "Unpaid internships"
+    ],
+    "preferred_locations": [
+      "Hyderabad",
+      "Bangalore",
+      "Pune",
+      "Remote (India)"
+    ],
+    "current_city": "Hyderabad",
+    "relocation_ok": [
+      "Bangalore",
+      "Pune"
+    ],
+    "remote_india_ok": true,
+    "seniority": "Junior / associate",
+    "shift_preference": "TODO",
+    "industries": "TODO"
+  }
+}
