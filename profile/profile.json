@@ -1,10 +1,13 @@
 {
   "_meta": {
     "last_updated": "2026-10-02",
-    "note": "Every value comes from Preetam's resumes, project READMEs, the portfolio site, or facts he gave directly. 'TODO' means not yet known. Do not guess values.",
+    "note": "Every value comes from Preetam's resumes (current + original pre-Spider ones in profile/source-resumes/), project READMEs, the portfolio site, his LinkedIn export, his emails, or facts he gave directly. 'TODO' means not yet known. Do not guess values.",
     "decisions": [
       "Headline = ML Engineer",
-      "Chat_Bot stack = Node/Express + OpenAI Responses API on Azure"
+      "Chat_Bot stack = Node/Express + OpenAI Responses API on Azure",
+      "Street Cause growth = 9 → 30+ volunteers (~230%) (original resumes + LinkedIn)",
+      "IncluHub split: AI Intern Mar-May 2026; AI Orchestrator Jul-Aug 2026 (LinkedIn / offer email)",
+      "CGPA primary = 7.5 (user, 2026-10-02); 7.2 appears on the 2025-08-27 resume"
     ]
   },
   "identity": {
@@ -18,14 +21,40 @@
     "nationality": "TODO",
     "current_location": "Hyderabad, India",
     "permanent_address": "TODO",
-    "current_address": "TODO",
-    "pin_code": "TODO"
+    "current_address": "Flat No. 203, Pallamoni Livings, Sneha Nagar Colony, Street No. 8, Habsiguda, Hyderabad, Telangana, India (LinkedIn export, 2026-09-05)",
+    "pin_code": "TODO",
+    "name_variants": [
+      {
+        "name": "Preetam Naik",
+        "source": "2025-08-27 resume, LinkedIn, current resumes, site"
+      },
+      {
+        "name": "Pujari Preetam",
+        "source": "2026-03 / 2026-04 original resumes"
+      },
+      {
+        "name": "Preetam Pujari",
+        "source": "summer internship report (May 2025), IEEE paper author list (2026-09)"
+      },
+      {
+        "name": "Pujari Preetam Naik",
+        "source": "VNR VJIET college email"
+      },
+      {
+        "name": "PUJARI PREETAM",
+        "source": "LIC email"
+      }
+    ],
+    "legal_name_for_forms": "TODO: confirm - 'Pujari Preetam Naik' (college records / emails) vs 'Preetam Naik' (LinkedIn, resumes); 'Preetam Pujari' is used on the internship report and IEEE paper",
+    "college_roll_number": "22071A66B5 (summer internship report, May 2025)"
   },
   "contact": {
     "email": "pritam.exe2k4@gmail.com",
     "phone": "+91 9676290504",
     "alternate_phone": "TODO",
-    "whatsapp": "TODO"
+    "whatsapp": "TODO",
+    "alternate_email": "preetam.naik3@gmail.com (all original resumes 2025-08 to 2026-04, LinkedIn)",
+    "phone_note": "Internshala resume (2026-08-31) shows 9676290540 - typo; correct number is 9676290504"
   },
   "links": {
     "portfolio": "https://pritamexeportfolio.lovable.app",
@@ -42,22 +71,24 @@
     "related": {
       "elevx": "https://www.elevx.in/",
       "street_cause_vnr_vjiet_instagram": "https://www.instagram.com/streetcausevnrvjiet/"
-    }
+    },
+    "github_old": "https://github.com/Pritam2k4 (all original resumes 2025-08 to 2026-04)",
+    "portfolio_old": "https://pujari-preetam-portfolio.base44.app (2026-03-14 resume + email to meansquare.ai)"
   },
   "education": [
     {
       "level": "B.Tech",
       "institute": "VNR VJIET",
-      "institute_full_name": "TODO",
+      "institute_full_name": "Vallurupalli Nageswara Rao Vignana Jyothi Institute of Engineering and Technology (VNRVJIET) - autonomous; LinkedIn shows 'VNR Vignana Jyothi Institute of Engineering and Technology'",
       "city": "Hyderabad",
-      "university": "TODO",
+      "university": "JNTUH - Jawaharlal Nehru Technological University, Hyderabad (affiliating university; internship report)",
       "degree": "B.Tech in Computer Science and Engineering (AI/ML)",
       "branch": "CSE (AI/ML)",
       "start_year": 2022,
       "end_year": 2026,
       "graduation_year": 2026,
-      "graduation_month": "TODO",
-      "status": "TODO",
+      "graduation_month": "May 2026 (LinkedIn)",
+      "status": "Completed - May 2026 (LinkedIn); Graduation Day payment made 2026-06-18 (email)",
       "cgpa": "7.5",
       "cgpa_scale": "TODO",
       "percentage": "TODO",
@@ -68,34 +99,64 @@
         "Data Structures",
         "Database Systems",
         "Software Engineering"
-      ]
+      ],
+      "institute_address": "Vignana Jyothi Nagar, Pragathi Nagar, Nizampet (S.O), Hyderabad - 500 090, Telangana (internship report)",
+      "department": "CSE - AI & ML (dept. of CSE-AIML & IoT) (internship report)",
+      "roll_number": "22071A66B5",
+      "start": "TODO: confirm - Aug 2022 (2026-03/04 original resumes) vs May 2022 (LinkedIn)",
+      "cgpa_note": "TODO: confirm - 7.5 (user-stated, 2026-10-02; use this) vs 7.2 (2025-08-27 resume, older)"
     },
     {
-      "level": "12th (Class XII)",
-      "score": "80%",
-      "school": "TODO",
-      "board": "TODO",
-      "year": "TODO",
-      "stream": "TODO"
+      "level": "12th (Class XII) / Intermediate",
+      "school": "Sri Chaitanya Junior College, Hyderabad",
+      "stream": "MPC (Maths, Physics, Chemistry)",
+      "score": "800/1000 (80%)",
+      "board": "TODO: confirm - not stated in any source (the 1000-mark total matches the Telangana State Board of Intermediate Education system, unverified)",
+      "year": 2022,
+      "dates": "TODO: confirm - 2020-2022 (2025 resume) vs Jan 2020 - Jan 2022 (2026 resumes) vs Apr 2020 - May 2022 (LinkedIn)",
+      "source": "2025-08-27 resume (800/1000), 2026 resumes, LinkedIn; 80% user-stated"
     },
     {
       "level": "10th (Class X)",
+      "school": "Johnson Grammar School (ICSE & IB), Hyderabad",
+      "board": "ICSE (CISCE)",
       "score": "70%",
-      "school": "TODO",
-      "board": "TODO",
-      "year": "TODO"
+      "year": 2020,
+      "dates": "TODO: confirm - 2020 (2025 resume) vs Jan 2019 - Jan 2020 (2026 resumes) vs May 2020 (LinkedIn)",
+      "source": "2025-08-27 resume (70%), 2026 resumes, LinkedIn, Internshala resume"
     }
   ],
   "experience": [
     {
       "company": "IncluHub",
-      "title": "AI Intern → AI Orchestrator",
       "location": "Hyderabad",
       "start": "Mar 2026",
-      "end": "TODO: confirm — Aug 2026 (user-provided; repo resume.tex; 2026-09-14 resume; portfolio-site resume) vs Sep 2026 (current Drive PDFs; archived 2026-09-30 PDFs)",
-      "employment_type": "Internship → role (exact type TODO)",
+      "end": "Aug 2026",
+      "end_note": "Aug 2026 per LinkedIn + user + offer email; the current Drive PDFs and archived 2026-09-30 PDFs say Sep 2026 and should be updated. Contract completion / FNF letter emails 2026-09-07 and 2026-09-15.",
       "company_description": "Creative education school + fashion social / hiring network",
-      "highlights": [
+      "roles": [
+        {
+          "title": "AI Intern (LinkedIn: 'Artificial Intelligence Intern'; also listed as 'AI Automation Intern' and 'Business Development Intern')",
+          "start": "Mar 2026",
+          "end": "May 2026",
+          "employment_type": "Internship",
+          "source": "2026-04-24 original resume, LinkedIn, internship offer emails 2026-03-17/19",
+          "highlights": [
+            "Collected and curated 5k+ fashion-specific data points (product attributes, trends, brand metadata) for a domain-focused knowledge base.",
+            "Built an automated data pipeline for continuous ingestion and preprocessing, improving AI retrieval relevance for fashion queries.",
+            "Developed an AI agent with ElevenLabs and LLM frameworks for voice-enabled interactions and task automation across fashion workflows."
+          ]
+        },
+        {
+          "title": "AI Orchestrator",
+          "start": "Jul 2026",
+          "end": "Aug 2026",
+          "employment_type": "Employment after extension period (exact type TODO)",
+          "source": "LinkedIn; offer email 'Offer of employment post extension period - AI Orchestrator' 2026-06-04, accepted the same day",
+          "gap_note": "Jun 2026: TODO (offer accepted 2026-06-04; LinkedIn starts the role Jul 2026)"
+        }
+      ],
+      "highlights_whole_tenure": [
         "Built an in-house CRM for Meta ad marketing leads so leads from ~8–9 live campaigns landed in one place instead of scattered sheets/inboxes.",
         "Designed and shipped the company website; also built smaller Chrome-connected CRM / ops tools used by the sales team.",
         "Automated recurring workflows with n8n and Google Apps Script / Sheets to cut manual campaign and lead handling.",
@@ -104,6 +165,7 @@
         "Built the IncluHub Student Dashboard (Admin / Educator / Student); live to ~40–50 students and ~4–5 educators (earlier resume versions).",
         "Ran competitor and market research to brief the team on positioning and customer problems."
       ],
+      "highlights_note": "Tenure-wide bullets from later resumes / LinkedIn; not split by role in sources.",
       "skills": [
         "Meta Graph API",
         "WhatsApp API",
@@ -113,23 +175,37 @@
         "Claude Code",
         "OpenAI Codex"
       ],
-      "reason_for_leaving": "TODO",
+      "reason_for_leaving": "TODO (contract completion per Sep 2026 emails)",
       "stipend_or_ctc": "TODO",
       "manager_reference": "TODO"
     },
     {
       "company": "Street Cause, VNR VJIET",
-      "title": "HR Head",
+      "title": "HR Head (LinkedIn: 'Head of Human Resources')",
       "location": "Hyderabad",
       "start": "Jan 2024",
       "end": "Dec 2024",
       "employment_type": "Volunteer / leadership (national NGO campus chapter)",
       "highlights": [
         "Led campus HR for the VNR VJIET chapter: recruiting, interviews, onboarding, and volunteer ops.",
-        "Grew the chapter membership — TODO: confirm numbers: 9 → 30+ (~230%) (older resumes, portfolio site) vs ~9–10 → ~60 (current Drive resumes).",
+        "Scaled the chapter from 9 to 30+ volunteers (~230% growth) via structured recruitment and onboarding.",
+        "Secured official campus NGO representation, increasing visibility and participation.",
         "Staffed drives and campus events reaching 300+ people per flagship programme; initiated programmes such as Run for a Cause."
       ],
-      "chapter_growth": "TODO: confirm — '9 → 30+ (~230%)' vs '~9–10 → ~60'"
+      "chapter_growth": "9 → 30+ volunteers (~230%) (original resumes 2026-03/04, LinkedIn). The ~9-10 → ~60 figure on the current Drive resumes is superseded."
+    },
+    {
+      "company": "Student Force",
+      "title": "AR Head",
+      "location": "Hyderabad",
+      "start": "Aug 2023",
+      "end": "Dec 2023",
+      "employment_type": "Volunteer / student leadership",
+      "highlights": [
+        "Conducted 3 workshops with 30+ alumni, training 100+ students on fundraising and NGO systems.",
+        "Led 2 campus events (300+ attendees each), managing end-to-end operations for a team of 20+ members."
+      ],
+      "source": "2025-08-27, 2026-03-14, 2026-03-21, 2026-04-24 original resumes"
     }
   ],
   "extracurriculars": [
@@ -303,7 +379,84 @@
       "chess",
       "books",
       "research"
-    ]
+    ],
+    "on_original_resumes": {
+      "2025_08": [
+        "Python",
+        "SQL",
+        "C++",
+        "Java (OOP)",
+        "Power BI",
+        "MS Excel",
+        "Firebase",
+        "Git",
+        "GitHub",
+        "VS Code"
+      ],
+      "2026_03_04": [
+        "PyTorch",
+        "LangChain",
+        "LangGraph",
+        "HuggingFace Transformers",
+        "Sentence-Transformers",
+        "FastAPI",
+        "Streamlit",
+        "ChromaDB",
+        "Pinecone",
+        "FAISS",
+        "NumPy",
+        "Pandas",
+        "Matplotlib",
+        "Seaborn",
+        "Docker",
+        "Linux",
+        "Jupyter",
+        "Google Colab",
+        "Gemini",
+        "Computer Vision",
+        "Multimodal Learning",
+        "RAG",
+        "Agentic workflows",
+        "Prompt engineering"
+      ],
+      "note": "Listed on Preetam's own pre-Spider resumes; verify depth before claiming on new applications."
+    },
+    "soft_skills": [
+      "Learning agility",
+      "Adaptability",
+      "Problem-solving",
+      "Team collaboration",
+      "Accountability"
+    ],
+    "interests_by_source": {
+      "2025_08_resume": [
+        "Data Analytics",
+        "Gaming",
+        "Fitness",
+        "Sports",
+        "Gardening",
+        "Journaling",
+        "Emerging Tech"
+      ],
+      "2026_03_resume": [
+        "Fitness",
+        "Meditation",
+        "Exploring AI Tools",
+        "Travel"
+      ],
+      "internshala_2026_08": [
+        "Fitness",
+        "Yoga",
+        "Badminton"
+      ],
+      "2026_09_14_resume": [
+        "Creative thinking",
+        "fitness",
+        "chess",
+        "books",
+        "research"
+      ]
+    }
   },
   "resumes": {
     "ml_engineer": {
@@ -324,11 +477,94 @@
       "genai": "https://drive.google.com/file/d/1UYK6phq7eKCWVd1YW5VfazpCkSQgnjSf/view",
       "data_analyst_scientist": "https://drive.google.com/file/d/1aMUqsZmxBlCc0I_-VzOxU1bm9Emfk6UJ/view"
     },
-    "portfolio_site_resume": "https://pritamexeportfolio.lovable.app/Preetam-Naik-Resume.pdf"
+    "portfolio_site_resume": "https://pritamexeportfolio.lovable.app/Preetam-Naik-Resume.pdf",
+    "original_pre_spider": [
+      {
+        "file": "profile/source-resumes/2025-08-27_resume_self-sent.pdf",
+        "date": "2025-08-27",
+        "how": "self-sent from preetam.naik3@gmail.com (msg 198eb72ccc08b1ab)",
+        "name_on_resume": "Preetam Naik",
+        "note": "oldest; has CGPA 7.2, 800/1000, 70%, 4 certifications"
+      },
+      {
+        "file": "profile/source-resumes/2026-03-14_resume_meansquare.pdf",
+        "date": "2026-03-14",
+        "how": "sent to nitisham@meansquare.ai (thread 19cea4f163b908b1)",
+        "name_on_resume": "Pujari Preetam",
+        "note": "base44 portfolio link; Multi-Agent Price Intelligence project"
+      },
+      {
+        "file": "profile/source-resumes/2026-03-21_resume_loopcv.pdf",
+        "date": "2026-03-21 (PDF created 2026-03-20)",
+        "how": "LoopCV test application to self (thread 19d0f446260dad1f)",
+        "name_on_resume": "Pujari Preetam",
+        "note": "adds ICSE Class 10; 2026 certifications + interests"
+      },
+      {
+        "file": "profile/source-resumes/2026-04-24_resume_airahr.pdf",
+        "date": "2026-04-24 (PDF created 2026-04-15)",
+        "how": "sent to anish.nemali@airahr.ai (thread 19dbdbb50516b9b8)",
+        "name_on_resume": "Pujari Preetam",
+        "note": "most complete pre-Spider version; adds IncluHub AI Intern Mar-May 2026"
+      }
+    ]
   },
-  "certifications": "TODO",
+  "certifications": [
+    {
+      "name": "Machine Learning Specialization - Andrew Ng",
+      "issuer": "Coursera (DeepLearning.AI / Stanford)",
+      "listed_on": "2025-08-27 resume",
+      "date": "TODO",
+      "credential_url": "TODO"
+    },
+    {
+      "name": "Privacy and Security in Online Social Media",
+      "issuer": "NPTEL",
+      "listed_on": "2025-08-27 resume",
+      "date": "TODO",
+      "credential_url": "TODO"
+    },
+    {
+      "name": "100 Days of Code: The Complete Python Pro Bootcamp ('100 Days of Code with Python' / '100 Days of Python')",
+      "issuer": "Udemy",
+      "listed_on": "2025-08-27 and 2026-03-21 resumes",
+      "date": "TODO",
+      "credential_url": "TODO"
+    },
+    {
+      "name": "Master DSA with C++",
+      "issuer": "Udemy",
+      "listed_on": "2025-08-27 resume",
+      "date": "TODO",
+      "credential_url": "TODO"
+    },
+    {
+      "name": "AI Engineer Core Track: LLM Engineering, RAG",
+      "issuer": "TODO",
+      "listed_on": "2026-03-21 resume",
+      "date": "TODO",
+      "credential_url": "TODO"
+    },
+    {
+      "name": "Data Science, ML, DL, NLP Bootcamp",
+      "issuer": "Udemy",
+      "listed_on": "2026-03-21 resume",
+      "date": "TODO",
+      "credential_url": "TODO"
+    }
+  ],
   "achievements": "TODO",
-  "publications": "TODO",
+  "publications": [
+    {
+      "title": "NeuroFuse: A Diffusion Based Image Fusion Framework for Tumor Classification",
+      "venue": "2026 8th International Conference on Cybernetics, Cognition and Machine Learning Applications (ICCCMLA), IEEE",
+      "authors": "Palliyana Shabarish, Kancharagunta Kishan Babu, Sagar Yeruva, Nakka Smitha, Kore Abhijith, Balini Lohith Reddy, Preetam Pujari",
+      "author_position": "7 of 7",
+      "status": "Accepted; IEEE copyright transfer completed 2026-09-12. Publication date / DOI / IEEE Xplore link TODO",
+      "related_project": "Multimodal Medical Image Fusion for Brain Tumor Detection",
+      "source": "IEEE eCopyright email to preetam.naik3@gmail.com, 2026-09-12 (Gmail thread 1a0949db1844eb8a)"
+    }
+  ],
   "languages_spoken": "TODO",
   "application_answers": {
     "current_ctc": "TODO",
@@ -374,5 +610,118 @@
     "seniority": "Junior / associate",
     "shift_preference": "TODO",
     "industries": "TODO"
-  }
+  },
+  "academic_internship": {
+    "title": "Financial Management Tool - Summer Internship project",
+    "date": "May 2025 (academic year 2024-25)",
+    "institution": "VNRVJIET, Dept. of CSE-AIML & IoT (submitted to JNTUH)",
+    "guide": "Mrs. Swetha Kumari, Assistant Professor",
+    "summary": "Financial management tool: NLP transaction classification (pre-trained BERT), budget optimisation via linear programming, ARIMA vs LSTM forecasting (LSTM better long-term), dashboards, web app with savings goals, unusual-activity alerts and monthly summaries.",
+    "host_company": "TODO (report is an academic summer-internship report; no external company named)",
+    "source": "Summer internship report PDF emailed 2025-05-23 (preetam.naik3 Gmail); not copied to repo"
+  },
+  "projects_from_original_resumes": [
+    {
+      "name": "Multimodal Medical Image Fusion for Brain Tumor Detection",
+      "date": "Sep 2025",
+      "repo": "TODO",
+      "one_liner": "Analysed/benchmarked 10+ multimodal MRI fusion techniques across 8 metrics (PSNR, SSIM, Dice) on 5+ datasets (BraTS, TCIA); documented 96.8% SVM accuracy (fused MRI-SPECT), 0.96 Dice (GAN fusion), 99.24% transformer classification; identified 6+ open challenges, targeting sub-200ms inference.",
+      "stack": [
+        "Python",
+        "PyTorch",
+        "Deep SVDD",
+        "Multi-modal MRI"
+      ],
+      "related_publication": "NeuroFuse (IEEE ICCCMLA 2026)",
+      "source": "2026-03/04 original resumes"
+    },
+    {
+      "name": "Intelli-Credit: AI Credit Decisioning Engine",
+      "date": "Nov 2025",
+      "repo": "TODO",
+      "one_liner": "LLM credit decisioning engine ingesting GST, ITR, bank statements, annual reports and litigation data to auto-generate Credit Appraisal Memos (lend/no-lend, limit, risk premium); India-specific PDF pipelines + research agent over MCA and e-Courts flagging circular trading, revenue inflation, litigation exposure.",
+      "stack": [
+        "Python",
+        "LLMs",
+        "PDF parsing",
+        "Web scraping"
+      ],
+      "source": "2026-03/04 original resumes, Internshala resume"
+    },
+    {
+      "name": "Agentic Retrieval-Augmented Generation (RAG)",
+      "date": "Jan 2026",
+      "repo": "TODO",
+      "one_liner": "Agentic RAG with a 4-node LangGraph (ingestor, router, rewriter, chat router) for multi-turn PDF + web Q&A; FastAPI + Streamlit app, ChromaDB Cloud vector retrieval, Tavily/DuckDuckGo web search, Gemini LLM.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "LangGraph",
+        "ChromaDB",
+        "Gemini",
+        "Streamlit",
+        "Tavily",
+        "DuckDuckGo"
+      ],
+      "source": "2026-03/04 original resumes"
+    },
+    {
+      "name": "Multi-Agent Price Intelligence System",
+      "date": "Feb 2026",
+      "repo": "TODO",
+      "one_liner": "Modular multi-agent system (6+ agents, central orchestration): RSS + HTML deal scraping with LLM normalisation into Pydantic schemas, RAG-based price estimation (ChromaDB + ensemble models), Gradio monitoring UI with streaming logs and opportunity alerts.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Gradio",
+        "LiteLLM",
+        "ChromaDB",
+        "Pydantic"
+      ],
+      "source": "2026-03-14 original resume"
+    },
+    {
+      "name": "Market Data Visualizer",
+      "date": "2025",
+      "repo": "TODO",
+      "one_liner": "Python tool with SQLite to store, query and visualise market sales data; interactive analysis for market owners.",
+      "stack": [
+        "Python",
+        "SQLite"
+      ],
+      "source": "2025-08-27 original resume"
+    },
+    {
+      "name": "Excel to CSV Data Converter",
+      "date": "2024",
+      "repo": "TODO",
+      "one_liner": "Python tool converting Excel to CSV with dynamic column selection and filtering; cut manual workload.",
+      "stack": [
+        "Python"
+      ],
+      "source": "2025-08-27 original resume"
+    },
+    {
+      "name": "Financial Management Tool (summer internship project)",
+      "date": "May 2025",
+      "repo": "TODO",
+      "one_liner": "See academic_internship.",
+      "stack": [
+        "Python",
+        "BERT",
+        "ARIMA",
+        "LSTM",
+        "Linear programming"
+      ],
+      "source": "summer internship report, May 2025"
+    }
+  ],
+  "conflicts_to_confirm": [
+    "CGPA: 7.5 (user, primary) vs 7.2 (2025-08-27 resume)",
+    "Legal name on forms: 'Pujari Preetam Naik' vs 'Preetam Naik' (also 'Preetam Pujari', 'Pujari Preetam')",
+    "B.Tech start: Aug 2022 (2026 resumes) vs May 2022 (LinkedIn)",
+    "Intermediate dates: 2020-2022 vs Jan 2020 - Jan 2022 vs Apr 2020 - May 2022",
+    "ICSE dates: 2020 vs Jan 2019 - Jan 2020 vs May 2020",
+    "12th board: not stated anywhere"
+  ]
 }
