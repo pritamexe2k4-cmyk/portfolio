@@ -39,10 +39,12 @@ function WorkPage() {
                   <ArrowSee className="arrow-nudge" />
                 </a>
               ) : null}
-              <a href={project.repo} target="_blank" rel="noreferrer" className="group/see inline-flex items-center gap-2">
-                GitHub
-                <ArrowSee className="arrow-nudge" />
-              </a>
+              {project.repo ? (
+                <a href={project.repo} target="_blank" rel="noreferrer" className="group/see inline-flex items-center gap-2">
+                  GitHub
+                  <ArrowSee className="arrow-nudge" />
+                </a>
+              ) : null}
             </div>
           </div>
           <div className="flex flex-col gap-6">

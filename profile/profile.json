@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "last_updated": "2026-10-02",
+    "last_updated": "2026-10-08",
     "note": "Every value comes from Preetam's resumes (current + original pre-Spider ones in profile/source-resumes/), project READMEs, the portfolio site, his LinkedIn export, his emails, or facts he gave directly. 'TODO' means not yet known. Do not guess values.",
     "decisions": [
-      "Headline = ML Engineer",
+      "Headline = AI/ML Systems Builder",
       "Chat_Bot stack = Node/Express + OpenAI Responses API on Azure",
       "Street Cause growth = 9 → 30+ volunteers (~230%) (original resumes + LinkedIn)",
       "IncluHub split: AI Intern Mar-May 2026; AI Orchestrator Jul-Aug 2026 (LinkedIn / offer email)",
@@ -15,7 +15,7 @@
     "short_name": "Preetam",
     "first_name": "Preetam",
     "last_name": "Naik",
-    "headline": "ML Engineer",
+    "headline": "AI/ML Systems Builder",
     "date_of_birth": "TODO",
     "gender": "TODO",
     "nationality": "TODO",
@@ -57,7 +57,7 @@
     "phone_note": "Internshala resume (2026-08-31) shows 9676290540 - typo; correct number is 9676290504"
   },
   "links": {
-    "portfolio": "https://pritamexeportfolio.lovable.app",
+    "portfolio": "TODO: confirm the current deployed portfolio URL; source repository is https://github.com/pritamexe2k4-cmyk/portfolio",
     "github": "https://github.com/pritamexe2k4-cmyk",
     "linkedin": "https://www.linkedin.com/in/preetam-naik2k4",
     "x_twitter_handle": "@preetam03296112",

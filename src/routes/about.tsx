@@ -23,16 +23,15 @@ function AboutPage() {
         <div className="grid gap-16 lg:grid-cols-2">
           <div className="space-y-10 font-sans text-lead leading-snug text-ink text-pretty">
             <p>
-              I'm an AI engineer working on applied systems — RAG, agents, and the backends that hold
-              them. The skillset sits on Python and TypeScript: FastAPI, LangGraph, Next.js, React Native.
+              I'm an AI/ML systems builder working across machine learning, applied AI, and product software.
+              My foundation is Python, SQL, TypeScript, FastAPI, Next.js, React, and practical data systems.
             </p>
             <p>
-              IncluHub, Hyderabad: AI Intern (Mar–May 2026) then AI Orchestrator (Jul–Aug 2026).
-              Fashion-model social + hiring network. I owned the live app (~1,000–3,000 users), wired Meta
-              / WhatsApp / Ads into a CRM, and shipped the student dashboard.
+              IncluHub, Hyderabad: AI Intern then AI Orchestrator in 2026. I contributed to product and
+              operations work across CRM workflows, integrations, and the role-based student dashboard.
             </p>
             <p>
-              Street Cause, VNR VJIET: HR Head, 2024. Recruitment, onboarding, chapter 9 → 30+ volunteers.
+              Street Cause, VNR VJIET: HR Head, 2024. Recruitment, onboarding, and volunteer operations.
             </p>
             <p>B.Tech CSE (AI/ML), VNR VJIET, 2022–2026. Hyderabad. Chess, books, gym, research, food.</p>
           </div>
@@ -43,8 +42,8 @@ function AboutPage() {
               <div className="border-b border-line pb-6">
                 <dt className="text-ink-strong">Looking for</dt>
                 <dd className="mt-3 text-lg leading-relaxed">
-                  Internships from ₹20k/month or full-time from 4 LPA in GenAI / RAG / agentic / applied AI /
-                  backend. Hyderabad or remote-friendly India.
+                  Junior ML, applied AI, data, or backend roles where I can learn quickly and ship useful systems.
+                  Hyderabad, Bengaluru, Pune, or remote-friendly India.
                 </dd>
               </div>
               <div className="border-b border-line pb-6">

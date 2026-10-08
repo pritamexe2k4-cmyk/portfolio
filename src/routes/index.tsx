@@ -114,12 +114,12 @@ function About() {
       <div className="grid gap-12 lg:grid-cols-2">
         <div className="space-y-8 font-sans text-lead leading-snug text-ink text-pretty">
           <p>
-            B.Tech CSE (AI/ML), VNR VJIET. I care about systems that move revenue and cut busywork —
-            orchestration, RAG that stays honest, and backends you can actually ship.
+            B.Tech CSE (AI/ML), VNR VJIET. I care about practical ML and AI systems: clear data flows,
+            useful interfaces, and honest technical claims.
           </p>
           <p>
-            At IncluHub I went intern to AI Orchestrator (Mar–Aug 2026): fashion app, Meta/WhatsApp CRM
-            path, student dashboard. Before that I ran HR for Street Cause and grew the chapter 9 → 30+.
+            At IncluHub I worked across product operations, CRM workflows, and the student dashboard. Before
+            that I led recruitment and onboarding for Street Cause at VNR VJIET.
           </p>
         </div>
         <div>
