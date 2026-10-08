@@ -55,9 +55,6 @@ function AboutPage() {
                   <a href={site.linkedin} target="_blank" rel="noreferrer" className="text-link w-fit">
                     LinkedIn
                   </a>
-                  <a href={site.resume} target="_blank" rel="noreferrer" className="text-link w-fit">
-                    Resume
-                  </a>
                   <a href={`mailto:${site.email}`} className="text-link w-fit">
                     {site.email}
                   </a>

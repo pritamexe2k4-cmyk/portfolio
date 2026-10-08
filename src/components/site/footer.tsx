@@ -1,4 +1,4 @@
-import { FileText, Github, Linkedin, Mail } from "lucide-react";
+import { Github, Linkedin, Mail } from "lucide-react";
 import { Logo } from "@/components/site/logo";
 import { pageX } from "@/components/site/layout";
 import { site } from "@/data/site";
@@ -8,7 +8,6 @@ const socials = [
   { href: site.linkedin, label: "LinkedIn", Icon: Linkedin },
   { href: site.github, label: "GitHub", Icon: Github },
   { href: `mailto:${site.email}`, label: "Email", Icon: Mail },
-  { href: site.resume, label: "Resume", Icon: FileText },
 ] as const;
 
 export function Newsletter() {
