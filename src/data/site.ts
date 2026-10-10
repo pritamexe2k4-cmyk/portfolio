@@ -71,6 +71,24 @@ export const projects = [
       "This repository is the source of truth: links only point to projects that are publicly available or whose research status is stated clearly.",
     ],
   },
+  {
+    slug: "customer-support-agent",
+    n: "04",
+    title: "Customer Support Agent",
+    image: "/media/p1.jpg",
+    image2: "/media/work-1.jpg",
+    blurb:
+      "A LangGraph support workflow that pairs local LLM tool calling with semantic policy search and human escalation.",
+    live: null,
+    repo: "https://github.com/pritamexe2k4-cmyk/Project-1",
+    stack: "Python · LangGraph · LangChain · Ollama · LangSmith · Docker",
+    problem:
+      "Support questions need fast, grounded answers, while sensitive or unresolved cases need an explicit path to a human instead of an invented answer.",
+    body: [
+      "The agent follows a ReAct-style LangGraph loop: it decides whether to answer directly or call tools for order status, returns, inventory, tickets, and semantic knowledge-base retrieval.",
+      "It runs locally with Ollama, keeps multi-turn state through LangGraph, and includes Docker configuration plus LangSmith evaluation scenarios for checking tool use, answer quality, empathy, and actionability.",
+    ],
+  },
 ] as const;
 
 export const skillsTicker = [
@@ -85,6 +103,8 @@ export const skillsTicker = [
   "Supabase",
   "Docker",
   "GitHub Actions",
+  "LangGraph",
+  "LangSmith",
 ];
 
 export const aboutAccordion = [
