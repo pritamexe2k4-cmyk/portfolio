@@ -20,7 +20,7 @@ export const projects = [
   {
     slug: "student-dashboard",
     n: "01",
-    title: "Student Dashboard",
+    title: "IncluHub Dashboard",
     image: "/media/p1.jpg",
     image2: "/media/work-1.jpg",
     blurb:
@@ -36,44 +36,8 @@ export const projects = [
     ],
   },
   {
-    slug: "neurofuse",
-    n: "02",
-    title: "NeuroFuse Research",
-    image: "/media/p2.jpg",
-    image2: "/media/work-2.jpg",
-    blurb:
-      "Diffusion-based multimodal medical-image fusion research for brain-tumour classification.",
-    live: null,
-    repo: null,
-    stack: "Python · TensorFlow · Keras · Medical imaging",
-    problem:
-      "Medical images from different modalities contain complementary information, but combining them without losing clinically relevant detail is difficult.",
-    body: [
-      "Research project associated with NeuroFuse, accepted at IEEE ICCCMLA 2026. The work explores diffusion-based fusion as a more useful input for tumour classification.",
-      "The focus is evaluation and evidence: compare fusion quality, classification usefulness, and the limits of each approach rather than treating a medical model as a black box.",
-    ],
-  },
-  {
-    slug: "portfolio-system",
-    n: "03",
-    title: "Portfolio System",
-    image: "/media/p3.jpg",
-    image2: "/media/work-3.jpg",
-    blurb:
-      "A focused personal portfolio that makes work, research, and implementation decisions easy to inspect.",
-    live: null,
-    repo: "https://github.com/pritamexe2k4-cmyk/portfolio",
-    stack: "React · TypeScript · Vite · Tailwind · Vercel",
-    problem:
-      "A résumé alone cannot show how someone thinks. The site is designed to make selected work, technical scope, and contact paths clear without inflated claims.",
-    body: [
-      "Built as a maintainable React application with a small content model, accessible navigation, responsive layouts, and a versioned résumé source in the same repository.",
-      "This repository is the source of truth: links only point to projects that are publicly available or whose research status is stated clearly.",
-    ],
-  },
-  {
     slug: "customer-support-agent",
-    n: "04",
+    n: "02",
     title: "Customer Support Agent",
     image: "/media/p1.jpg",
     image2: "/media/work-1.jpg",
@@ -87,6 +51,23 @@ export const projects = [
     body: [
       "The agent follows a ReAct-style LangGraph loop: it decides whether to answer directly or call tools for order status, returns, inventory, tickets, and semantic knowledge-base retrieval.",
       "It runs locally with Ollama, keeps multi-turn state through LangGraph, and includes Docker configuration plus LangSmith evaluation scenarios for checking tool use, answer quality, empathy, and actionability.",
+    ],
+  },
+  {
+    slug: "major-project",
+    n: "03",
+    title: "MAJOR-PROJECT",
+    image: "/media/p3.jpg",
+    image2: "/media/work-3.jpg",
+    blurb: "A selected public project repository in active development.",
+    live: null,
+    repo: "https://github.com/pritamexe2k4-cmyk/MAJOR-PROJECT",
+    stack: "Project details in progress",
+    problem:
+      "This repository is selected as a featured project while its technical documentation is being prepared.",
+    body: [
+      "The public repository is included here so visitors can follow its development directly on GitHub.",
+      "A fuller case study will be added once the project scope, implementation, and outcomes are documented.",
     ],
   },
 ] as const;
