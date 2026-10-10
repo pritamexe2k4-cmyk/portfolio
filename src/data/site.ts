@@ -56,18 +56,18 @@ export const projects = [
   {
     slug: "major-project",
     n: "03",
-    title: "MAJOR-PROJECT",
+    title: "NeuroFuse Research",
     image: "/media/p3.jpg",
     image2: "/media/work-3.jpg",
-    blurb: "A selected public project repository in active development.",
+    blurb: "Diffusion-based MRI and CT image fusion for brain-tumour classification research.",
     live: null,
     repo: "https://github.com/pritamexe2k4-cmyk/MAJOR-PROJECT",
-    stack: "Project details in progress",
+    stack: "Python · Streamlit · Diffusion models · ConvNeXt-B · Medical imaging",
     problem:
-      "This repository is selected as a featured project while its technical documentation is being prepared.",
+      "MRI and CT scans provide different clinical information. The research explores whether fusing both modalities produces a more useful input for automated tumour classification.",
     body: [
-      "The public repository is included here so visitors can follow its development directly on GitHub.",
-      "A fuller case study will be added once the project scope, implementation, and outcomes are documented.",
+      "A Diff-IF-based diffusion workflow creates a fused MRI/CT image, preserving complementary visual information before classification.",
+      "The research code pairs the fused output with a ConvNeXt-B classifier and a Streamlit interface. It is research software, not a clinical diagnostic tool.",
     ],
   },
 ] as const;
