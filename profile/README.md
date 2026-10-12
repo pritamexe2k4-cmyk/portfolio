@@ -3,7 +3,7 @@
 A personal metadata store for filling job applications. The machine-readable copy is [`profile.json`](./profile.json).
 **Rule:** no guessed values. Anything marked **TODO** is still unknown. Sources are in *(italics)*.
 
-Source key: **user** = facts Preetam gave directly · **orig 2025-08 / orig 2026-03 / orig 2026-04** = his own pre-Spider resumes in [`source-resumes/`](./source-resumes/) (see §12 Sources) · **LinkedIn** = his LinkedIn PDF export (2026-09-05) · **report** = summer internship report (May 2025) · **ML / GenAI / DA resume** = current Drive PDFs (2026-09-30) · **old resumes** = archived 2026-09-30 versions, the repo `resume/resume.tex` (2026-09-22) and the `public/Preetam_Resume.pdf` (2026-09-14) · **site** = https://pritamexeportfolio.lovable.app · **README** = project repo READMEs.
+Source key: **user** = facts Preetam gave directly · **orig 2025-08 / orig 2026-03 / orig 2026-04** = historical pre-Spider resume provenance (files removed; see §12 Sources) · **LinkedIn** = his LinkedIn PDF export (2026-09-05) · **report** = summer internship report (May 2025) · **ML / GenAI / DA resume** = current Drive PDFs (2026-09-30) · **old resumes** = archived 2026-09-30 versions, historical portfolio resumes (files removed) · **site** = https://pritamexeportfolio.lovable.app · **README** = project repo READMEs.
 
 ---
 
@@ -90,7 +90,8 @@ Partnered with a web developer to ship the ElevX brand site on Shopify. Owned th
 | **Chat_Bot** (2026) | Password-gated Node/Express chatbot on the OpenAI Responses API, hosted on Azure *(stack confirmed by Preetam)*: system prompt, 12-message history, signed HttpOnly cookies, rate limits, `/api/chat` + `/health`, CI, manual Azure App Service deploys *(README, GenAI resume)* | JavaScript, Node.js, Express, OpenAI API, GitHub Actions, Azure | [repo](https://github.com/pritamexe2k4-cmyk/Chat_Bot) · [live](https://preetam-chatbot-2026-bjgwafbhcge5cwdq.centralindia-01.azurewebsites.net/) *(site)* |
 | **Digital Behaviour Intelligence** (2026) | Events → entity profiles → segments → change features → engagement prediction (Increasing / Stable / Declining). Still in design and build, not production ML *(README, ML resume)* | Python, Pandas, NumPy, scikit-learn | [repo](https://github.com/pritamexe2k4-cmyk/digital-behaviour-intelligence) |
 | **IncluHub Dashboard** (2026) | Role-based education ops (Admin / Educator / Student): Supabase Auth + RLS, stages, portfolio review, QR check-in, 22 SQL migrations *(README, resumes)* | Next.js, React, TypeScript, Supabase, Postgres, Tailwind, Vercel | [repo](https://github.com/pritamexe2k4-cmyk/inclu_dashboard) · [live](https://incluhub-dashboard-rho.vercel.app) |
-| **Portfolio** | Personal site + LaTeX resume source *(README)* | Vite, React, TypeScript, TanStack Router, Tailwind | [repo](https://github.com/pritamexe2k4-cmyk/portfolio) · [live](https://pritamexeportfolio.lovable.app) |
+| **Harry Potter Chatbot** (2026) | Local persistent threads, LangGraph checkpoints, summaries, restart recovery, 32 offline tests, 20 answer-evaluation scenarios, and opt-in LangSmith tracing. RAG and multi-user hosting remain future work. | Python, LangChain, LangGraph, SQLite, OpenAI, LangSmith | [repo](https://github.com/pritamexe2k4-cmyk/harry_potter_project) |
+| **Portfolio** | Personal portfolio site and project notes *(README)* | Vite, React, TypeScript, TanStack Router, Tailwind | [repo](https://github.com/pritamexe2k4-cmyk/portfolio) · [live](https://pritamexeportfolio.lovable.app) |
 | **IncluHub website** (work) | IncluHub's official site, with a RAG chatbot built on Supabase FTS + Groq *(README)* | React, Vite, Supabase, Groq, Vercel Edge | repo `contact561/website` (company) · https://incluhub.com |
 
 **From the original resumes** *(repos TODO)*:
@@ -120,14 +121,9 @@ Mentioned but not verified (the repos return 404, so they are missing or private
 - Soft skills: learning agility, adaptability, problem-solving, team collaboration, accountability *(orig 2025-08)*
 - Interests: creative thinking, fitness, chess, books, research *(2026-09-14 resume)* · data analytics, gaming, fitness, sports, gardening, journaling, emerging tech *(orig 2025-08)* · fitness, meditation, exploring AI tools, travel *(orig 2026-03-21)* · fitness, yoga, badminton *(Internshala resume)*
 
-## 7. Resumes
-| Version | Link |
-|---|---|
-| **ML Engineer (primary)** | https://drive.google.com/file/d/1r_Gqz45p-4Y1e9PEKVwrD_Es3MXD8yrn/view |
-| GenAI | https://drive.google.com/file/d/1HRD39Ckd0zCjUtVCCd6qPLgpWX_Yb9rK/view |
-| Data Analyst / Scientist | https://drive.google.com/file/d/1TajZOSaZ3kEKzWxcXhP-ukyvm1ZDCt9C/view |
-| Archived 2026-09-30 (ML / GenAI / DA) | [ML](https://drive.google.com/file/d/1U6HLOWbavIxtdQNeIE7PW5YnXGNFotkX/view) · [GenAI](https://drive.google.com/file/d/1UYK6phq7eKCWVd1YW5VfazpCkSQgnjSf/view) · [DA](https://drive.google.com/file/d/1aMUqsZmxBlCc0I_-VzOxU1bm9Emfk6UJ/view) |
-| Portfolio-site resume | https://pritamexeportfolio.lovable.app/Preetam-Naik-Resume.pdf |
+## 7. Resume files
+
+Resume documents and download links have been removed from this repository at Preetam's request. Historical provenance labels in the remaining profile facts are retained.
 
 ## 8. Certifications, publications & achievements
 **Certifications** *(dates and credential URLs TODO for all)*:
@@ -179,15 +175,8 @@ Mentioned but not verified (the repos return 404, so they are missing or private
 11. **12th board (TODO: confirm):** not stated in any source.
 
 ## 12. Sources
-Original resumes Preetam wrote himself before the Spider-generated versions (copies in [`source-resumes/`](./source-resumes/)):
-| File | Date | How it was found | Name on it | Notes |
-|---|---|---|---|---|
-| [`2025-08-27_resume_self-sent.pdf`](./source-resumes/2025-08-27_resume_self-sent.pdf) | 2025-08-27 | Self-sent from preetam.naik3@gmail.com | Preetam Naik | Oldest. CGPA 7.2, 12th 800/1000, ICSE 70%, 4 certifications, Student Force, old GitHub |
-| [`2026-03-14_resume_meansquare.pdf`](./source-resumes/2026-03-14_resume_meansquare.pdf) | 2026-03-14 | Sent to nitisham@meansquare.ai | Pujari Preetam | base44 portfolio; Multi-Agent Price Intelligence project |
-| [`2026-03-21_resume_loopcv.pdf`](./source-resumes/2026-03-21_resume_loopcv.pdf) | 2026-03-21 (PDF made 2026-03-20) | LoopCV test application to self | Pujari Preetam | Adds ICSE; 2026 certifications and interests |
-| [`2026-04-24_resume_airahr.pdf`](./source-resumes/2026-04-24_resume_airahr.pdf) | 2026-04-24 (PDF made 2026-04-15) | Sent to anish.nemali@airahr.ai | Pujari Preetam | Most complete pre-Spider version; IncluHub AI Intern Mar–May 2026 |
 
-Other sources (not copied to the repo):
+Historical resume files have been removed. Other references (not copied to the repo):
 - LinkedIn "Save to PDF" export, 2026-09-05 (given by Preetam): address, LinkedIn education dates, IncluHub role titles and dates.
 - Summer internship report "Financial Management Tool", May 2025 (emailed 2025-05-23): roll no., full institute name, JNTUH affiliation.
 - IEEE eCopyright receipt for NeuroFuse, 2026-09-12 (preetam.naik3 Gmail).

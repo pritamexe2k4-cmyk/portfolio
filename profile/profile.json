@@ -1,7 +1,7 @@
 {
   "_meta": {
     "last_updated": "2026-10-08",
-    "note": "Every value comes from Preetam's resumes (current + original pre-Spider ones in profile/source-resumes/), project READMEs, the portfolio site, his LinkedIn export, his emails, or facts he gave directly. 'TODO' means not yet known. Do not guess values.",
+    "note": "Every value comes from historical resume provenance (documents removed), project READMEs, the portfolio site, his LinkedIn export, his emails, or facts he gave directly. 'TODO' means not yet known. Do not guess values.",
     "decisions": [
       "Headline = AI/ML Systems Builder",
       "Chat_Bot stack = Node/Express + OpenAI Responses API on Azure",
@@ -267,7 +267,7 @@
       "year": 2026,
       "repo": "https://github.com/pritamexe2k4-cmyk/portfolio",
       "live": "https://pritamexeportfolio.lovable.app",
-      "one_liner": "Personal site plus LaTeX resume source.",
+      "one_liner": "Personal portfolio site and project notes.",
       "stack": [
         "Vite",
         "React",
@@ -288,6 +288,21 @@
         "Supabase",
         "Groq",
         "Vercel Edge Functions"
+      ]
+    },
+    {
+      "name": "Harry Potter Chatbot",
+      "year": 2026,
+      "repo": "https://github.com/pritamexe2k4-cmyk/harry_potter_project",
+      "live": null,
+      "one_liner": "Persistent independent chat threads, summaries, recovery, 32 offline tests, 20 evaluation scenarios, and optional LangSmith tracing; source-grounded RAG and multi-user deployment remain future work.",
+      "stack": [
+        "Python",
+        "LangChain",
+        "LangGraph",
+        "SQLite",
+        "OpenAI",
+        "LangSmith"
       ]
     }
   ],
@@ -457,57 +472,6 @@
         "research"
       ]
     }
-  },
-  "resumes": {
-    "ml_engineer": {
-      "drive_id": "1r_Gqz45p-4Y1e9PEKVwrD_Es3MXD8yrn",
-      "url": "https://drive.google.com/file/d/1r_Gqz45p-4Y1e9PEKVwrD_Es3MXD8yrn/view",
-      "primary": true
-    },
-    "genai": {
-      "drive_id": "1HRD39Ckd0zCjUtVCCd6qPLgpWX_Yb9rK",
-      "url": "https://drive.google.com/file/d/1HRD39Ckd0zCjUtVCCd6qPLgpWX_Yb9rK/view"
-    },
-    "data_analyst_scientist": {
-      "drive_id": "1TajZOSaZ3kEKzWxcXhP-ukyvm1ZDCt9C",
-      "url": "https://drive.google.com/file/d/1TajZOSaZ3kEKzWxcXhP-ukyvm1ZDCt9C/view"
-    },
-    "archived_2026_09_30": {
-      "ml_engineer": "https://drive.google.com/file/d/1U6HLOWbavIxtdQNeIE7PW5YnXGNFotkX/view",
-      "genai": "https://drive.google.com/file/d/1UYK6phq7eKCWVd1YW5VfazpCkSQgnjSf/view",
-      "data_analyst_scientist": "https://drive.google.com/file/d/1aMUqsZmxBlCc0I_-VzOxU1bm9Emfk6UJ/view"
-    },
-    "portfolio_site_resume": "https://pritamexeportfolio.lovable.app/Preetam-Naik-Resume.pdf",
-    "original_pre_spider": [
-      {
-        "file": "profile/source-resumes/2025-08-27_resume_self-sent.pdf",
-        "date": "2025-08-27",
-        "how": "self-sent from preetam.naik3@gmail.com (msg 198eb72ccc08b1ab)",
-        "name_on_resume": "Preetam Naik",
-        "note": "oldest; has CGPA 7.2, 800/1000, 70%, 4 certifications"
-      },
-      {
-        "file": "profile/source-resumes/2026-03-14_resume_meansquare.pdf",
-        "date": "2026-03-14",
-        "how": "sent to nitisham@meansquare.ai (thread 19cea4f163b908b1)",
-        "name_on_resume": "Pujari Preetam",
-        "note": "base44 portfolio link; Multi-Agent Price Intelligence project"
-      },
-      {
-        "file": "profile/source-resumes/2026-03-21_resume_loopcv.pdf",
-        "date": "2026-03-21 (PDF created 2026-03-20)",
-        "how": "LoopCV test application to self (thread 19d0f446260dad1f)",
-        "name_on_resume": "Pujari Preetam",
-        "note": "adds ICSE Class 10; 2026 certifications + interests"
-      },
-      {
-        "file": "profile/source-resumes/2026-04-24_resume_airahr.pdf",
-        "date": "2026-04-24 (PDF created 2026-04-15)",
-        "how": "sent to anish.nemali@airahr.ai (thread 19dbdbb50516b9b8)",
-        "name_on_resume": "Pujari Preetam",
-        "note": "most complete pre-Spider version; adds IncluHub AI Intern Mar-May 2026"
-      }
-    ]
   },
   "certifications": [
     {

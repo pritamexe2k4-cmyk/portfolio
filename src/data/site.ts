@@ -6,7 +6,6 @@ export const site = {
   email: "pritam.exe2k4@gmail.com",
   github: "https://github.com/pritamexe2k4-cmyk",
   linkedin: "https://www.linkedin.com/in/preetam-naik2k4",
-  resume: "/resume.pdf",
   hero: {
     before: "I'm Preetam, an AI/ML systems builder based in Hyderabad. ",
     available: "Open",
@@ -38,19 +37,20 @@ export const projects = [
   {
     slug: "customer-support-agent",
     n: "02",
-    title: "Customer Support Agent",
+    title: "Harry Potter Chatbot",
     image: "/media/p1.jpg",
     image2: "/media/work-1.jpg",
     blurb:
-      "A LangGraph support workflow that pairs local LLM tool calling with semantic policy search and human escalation.",
+      "A Python learning project with persistent chat threads, LangGraph memory, and repeatable answer-quality evaluations.",
     live: null,
-    repo: "https://github.com/pritamexe2k4-cmyk/Project-1",
-    stack: "Python · LangGraph · LangChain · Ollama · LangSmith · Docker",
+    repo: "https://github.com/pritamexe2k4-cmyk/harry_potter_project",
+    stack: "Python · LangChain · LangGraph · SQLite · OpenAI · LangSmith",
     problem:
-      "Support questions need fast, grounded answers, while sensitive or unresolved cases need an explicit path to a human instead of an invented answer.",
+      "A chatbot needs to continue separate conversations, preserve useful context, and expose unreliable answers before growing into a RAG service.",
     body: [
-      "The agent follows a ReAct-style LangGraph loop: it decides whether to answer directly or call tools for order status, returns, inventory, tickets, and semantic knowledge-base retrieval.",
-      "It runs locally with Ollama, keeps multi-turn state through LangGraph, and includes Docker configuration plus LangSmith evaluation scenarios for checking tool use, answer quality, empathy, and actionability.",
+      "Built independent saved chats with SQLite archives and LangGraph checkpoints, restart recovery, and bounded conversation summaries using GPT-4.1 mini.",
+      "Added 32 offline tests and 20 synthetic evaluation scenarios. The baseline exposed spoiler-boundary and summary-retention failures that remain documented; source-grounded RAG is the next learning direction.",
+      "Prepared opt-in LangSmith tracing for synthetic evaluations. Cloud delivery still requires a locally configured key; this is a local application, not a deployed multi-user service.",
     ],
   },
   {
@@ -110,7 +110,7 @@ export const notes = [
     href: "https://github.com/pritamexe2k4-cmyk",
   },
   {
-    title: "Portfolio source and résumé",
+    title: "Portfolio source",
     date: "2026",
     href: "https://github.com/pritamexe2k4-cmyk/portfolio",
   },
