@@ -13,9 +13,9 @@ Source key: **user** = facts Preetam gave directly · **orig 2025-08 / orig 2026
 | Full name | Preetam Naik *(site, LinkedIn, orig 2025-08)* |
 | Name variants | **Pujari Preetam** *(orig 2026-03/04)* · **Preetam Pujari** *(report, IEEE paper)* · **Pujari Preetam Naik** *(college email)* · PUJARI PREETAM *(LIC email)* |
 | Legal name to use on forms | **TODO: confirm** — "Pujari Preetam Naik" *(college records)* vs "Preetam Naik" *(LinkedIn, resumes)* |
-| Name on resumes | Preetam *(current resumes)* |
+| Name on resumes | Preetam Naik *(approved resume, 2026-10-12)* |
 | College roll no. | 22071A66B5 *(report)* |
-| Headline | **ML Engineer** *(decided by Preetam)* |
+| Headline | **AI/ML Systems Builder**; no role-title headline on the current resume |
 | Email | pritam.exe2k4@gmail.com *(user, resumes)* |
 | Alternate email | preetam.naik3@gmail.com *(all original resumes, LinkedIn)* |
 | Phone | +91 9676290504 *(user, all original resumes)*. The Internshala resume (2026-08-31) has a typo: 9676290540 |
@@ -87,6 +87,8 @@ Partnered with a web developer to ship the ElevX brand site on Shopify. Owned th
 ## 5. Projects
 | Project | One-liner | Stack | Links |
 |---|---|---|---|
+| **NeuroFuse** (2026) | Team study reports 98.20% ConvNeXt-B and 98.88% ViT accuracy on fused imagery. Training CT includes CycleGAN-generated images. Accepted at IEEE ICCCMLA 2026; not independently reproduced or clinically validated. | Python, diffusion models, ConvNeXt-B, ViT, Streamlit | [repo](https://github.com/pritamexe2k4-cmyk/MAJOR-PROJECT) |
+| **DoctorGemma** (2026) | Study based on Atharva Taras's DoctorGemma-3; personal extensions in progress. Reference notebook loss 5.9254 to 3.0142 across 30 steps (49.1% lower), with 0.35% trainable parameters. No held-out evaluation. | Gemma 3 4B, Unsloth, LoRA, 4-bit quantization, TRL | [repo](https://github.com/pritamexe2k4-cmyk/doctor-gemma-finetuning) |
 | **Chat_Bot** (2026) | Password-gated Node/Express chatbot on the OpenAI Responses API, hosted on Azure *(stack confirmed by Preetam)*: system prompt, 12-message history, signed HttpOnly cookies, rate limits, `/api/chat` + `/health`, CI, manual Azure App Service deploys *(README, GenAI resume)* | JavaScript, Node.js, Express, OpenAI API, GitHub Actions, Azure | [repo](https://github.com/pritamexe2k4-cmyk/Chat_Bot) · [live](https://preetam-chatbot-2026-bjgwafbhcge5cwdq.centralindia-01.azurewebsites.net/) *(site)* |
 | **Digital Behaviour Intelligence** (2026) | Events → entity profiles → segments → change features → engagement prediction (Increasing / Stable / Declining). Still in design and build, not production ML *(README, ML resume)* | Python, Pandas, NumPy, scikit-learn | [repo](https://github.com/pritamexe2k4-cmyk/digital-behaviour-intelligence) |
 | **IncluHub Dashboard** (2026) | Role-based education ops (Admin / Educator / Student): Supabase Auth + RLS, stages, portfolio review, QR check-in, 22 SQL migrations *(README, resumes)* | Next.js, React, TypeScript, Supabase, Postgres, Tailwind, Vercel | [repo](https://github.com/pritamexe2k4-cmyk/inclu_dashboard) · [live](https://incluhub-dashboard-rho.vercel.app) |
@@ -109,14 +111,14 @@ Partnered with a web developer to ship the ElevX brand site on Shopify. Owned th
 Mentioned but not verified (the repos return 404, so they are missing or private): **Brum — Voice Knowledge Assistant** *(2026-09-14 resume)*, **Production RAG** and **Agentic Ops** *(portfolio `src/data/site.ts`)*.
 
 ## 6. Skills / stack
-**Preferred stack line** *(user)*: "Python for ML and backends — Pandas, scikit-learn, FastAPI — plus Azure OpenAI for LLM APIs; for product, Next.js, TypeScript, Supabase/Postgres, Docker, Vercel."
-- Languages: Python, SQL, JavaScript, TypeScript
-- ML / Data: NumPy, Pandas, scikit-learn, TensorFlow, Keras, feature engineering, EDA, clustering, classification, train/test/CV
-- LLM / GenAI: Azure OpenAI, OpenAI Responses API, prompt engineering, chat history windowing. LangChain / LangGraph / LangSmith are listed as "currently learning, no shipped project yet" *(GenAI variant 2026-W40)*
-- Backend: FastAPI, Node.js, Express, REST APIs
-- Product / web: Next.js, React, React Native, Supabase (Auth, RLS, RPC), Postgres, Firebase
-- Cloud / DevOps: Azure App Service, GCP, Vercel, Docker, Git, GitHub Actions
-- Automation: n8n, Google Apps Script, Meta Graph / WhatsApp APIs, Claude Code, OpenAI Codex, Shopify
+Current skills follow Preetam's corrections and approved resume on 12 October 2026. Project technology stacks and historical resume records do not imply personal proficiency.
+- **Programming:** Python, SQL
+- **AI frameworks:** LangChain, LangGraph, LangSmith, TensorFlow, Keras, scikit-learn
+- **Data and databases:** NumPy, Pandas, SQLite, PostgreSQL, Supabase
+- **Model adaptation:** LoRA and quantization fundamentals
+- **Backend and tools:** FastAPI, REST APIs, Streamlit, Git, GitHub Actions, n8n, Google Apps Script
+- **Current resume:** [one-page PDF](../public/Preetam_Naik_Resume.pdf), with a centered header and no summary or role-title headline.
+- **Main projects:** NeuroFuse, DoctorGemma, Harry Potter Chatbot and IncluHub Dashboard. The first three are the resume priorities.
 - On the original resumes *(verify depth before claiming)*: C++, Java (OOP), Power BI, MS Excel, Firebase, VS Code *(orig 2025-08)* · PyTorch, LangChain, LangGraph, HuggingFace Transformers, Sentence-Transformers, Streamlit, ChromaDB, Pinecone, FAISS, Matplotlib, Seaborn, Linux, Jupyter, Google Colab, Gemini, computer vision, multimodal learning *(orig 2026-03/04)*
 - Soft skills: learning agility, adaptability, problem-solving, team collaboration, accountability *(orig 2025-08)*
 - Interests: creative thinking, fitness, chess, books, research *(2026-09-14 resume)* · data analytics, gaming, fitness, sports, gardening, journaling, emerging tech *(orig 2025-08)* · fitness, meditation, exploring AI tools, travel *(orig 2026-03-21)* · fitness, yoga, badminton *(Internshala resume)*

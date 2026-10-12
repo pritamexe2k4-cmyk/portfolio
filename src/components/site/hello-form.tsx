@@ -8,13 +8,22 @@ export function HelloCopy() {
   return (
     <div className="space-y-8 font-sans text-lead leading-snug text-ink text-pretty">
       <p>
-        Looking to staff an AI / backend seat, or just want to say hi? Send me an email and I’ll do
-        my best to reply within 24 hrs!
+        Looking to staff an AI / backend seat, or just want to say hi? Send me
+        an email and I’ll do my best to reply within 24 hrs!
       </p>
       <p>
         If contact forms aren’t your thing… send me an email at{" "}
         <a href={`mailto:${site.email}`} className="text-link">
           {site.email}
+        </a>
+      </p>
+      <p>
+        <a
+          href={site.resume}
+          className="text-link"
+          download="Preetam_Naik_Resume.pdf"
+        >
+          Download my current resume
         </a>
       </p>
     </div>
@@ -52,8 +61,20 @@ export function HelloForm() {
       <fieldset className="contents">
         <legend className="mb-2 text-lg text-ink">Name *</legend>
         <div className="grid gap-4 sm:grid-cols-2">
-          <input name="first" required placeholder="First Name" className={field} autoComplete="given-name" />
-          <input name="last" required placeholder="Last Name" className={field} autoComplete="family-name" />
+          <input
+            name="first"
+            required
+            placeholder="First Name"
+            className={field}
+            autoComplete="given-name"
+          />
+          <input
+            name="last"
+            required
+            placeholder="Last Name"
+            className={field}
+            autoComplete="family-name"
+          />
         </div>
       </fieldset>
       <div className="grid gap-4 sm:grid-cols-2">
@@ -92,7 +113,12 @@ export function HelloForm() {
       </div>
       <label className="flex flex-col gap-2 text-lg text-ink">
         Message *
-        <textarea name="message" required placeholder="Hello..." className={`${field} min-h-36`} />
+        <textarea
+          name="message"
+          required
+          placeholder="Hello..."
+          className={`${field} min-h-36`}
+        />
       </label>
       <button
         type="submit"

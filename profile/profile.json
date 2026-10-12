@@ -1,13 +1,17 @@
 {
   "_meta": {
-    "last_updated": "2026-10-08",
+    "last_updated": "2026-10-12",
     "note": "Every value comes from historical resume provenance (documents removed), project READMEs, the portfolio site, his LinkedIn export, his emails, or facts he gave directly. 'TODO' means not yet known. Do not guess values.",
     "decisions": [
       "Headline = AI/ML Systems Builder",
       "Chat_Bot stack = Node/Express + OpenAI Responses API on Azure",
       "Street Cause growth = 9 → 30+ volunteers (~230%) (original resumes + LinkedIn)",
       "IncluHub split: AI Intern Mar-May 2026; AI Orchestrator Jul-Aug 2026 (LinkedIn / offer email)",
-      "CGPA primary = 7.5 (user, 2026-10-02); 7.2 appears on the 2025-08-27 resume"
+      "CGPA primary = 7.5 (user, 2026-10-02); 7.2 appears on the 2025-08-27 resume",
+      "Current programming languages are Python and SQL only (user, 2026-10-12). Project stacks are not personal proficiency claims.",
+      "Resume: centered Calibri header, no summary or role-title headline, unchanged education; one current public PDF.",
+      "Resume priorities: NeuroFuse, DoctorGemma and Harry Potter; IncluHub Dashboard remains a fourth main project.",
+      "Training-loss changes from the attributed DoctorGemma notebook are not held-out answer-quality improvements."
     ]
   },
   "identity": {
@@ -239,12 +243,7 @@
       "repo": "https://github.com/pritamexe2k4-cmyk/digital-behaviour-intelligence",
       "live": null,
       "one_liner": "Classical-ML pipeline (in design/build): raw events → entity profiles (recency/frequency/intensity/diversity/trend) → segments → change features → supervised engagement (Increasing / Stable / Declining). Not production ML yet.",
-      "stack": [
-        "Python",
-        "Pandas",
-        "NumPy",
-        "scikit-learn"
-      ]
+      "stack": ["Python", "Pandas", "NumPy", "scikit-learn"]
     },
     {
       "name": "IncluHub Dashboard (Student Dashboard)",
@@ -282,13 +281,7 @@
       "repo": "https://github.com/contact561/website (IncluHub org repo)",
       "live": "https://incluhub.com",
       "one_liner": "IncluHub's official website with a RAG chatbot ('IncluHub AI Manager') using Supabase full-text search and Groq inference.",
-      "stack": [
-        "React",
-        "Vite",
-        "Supabase",
-        "Groq",
-        "Vercel Edge Functions"
-      ]
+      "stack": ["React", "Vite", "Supabase", "Groq", "Vercel Edge Functions"]
     },
     {
       "name": "Harry Potter Chatbot",
@@ -304,6 +297,44 @@
         "OpenAI",
         "LangSmith"
       ]
+    },
+    {
+      "name": "NeuroFuse",
+      "year": 2026,
+      "repo": "https://github.com/pritamexe2k4-cmyk/MAJOR-PROJECT",
+      "live": null,
+      "one_liner": "Team research on diffusion-based MRI/CT fusion for brain-tumor classification; paper accepted at IEEE ICCCMLA 2026.",
+      "stack": [
+        "Python",
+        "diffusion models",
+        "ConvNeXt-B",
+        "Vision Transformer",
+        "Streamlit"
+      ],
+      "reported_metrics": {
+        "fused_convnext_accuracy_percent": 98.2,
+        "fused_vit_accuracy_percent": 98.88,
+        "source": "neurofuse/README.md, submitted abstract",
+        "qualification": "Team-reported research results; synthetic CT used in training; no numerical single-modality baseline or independent reproduction verified."
+      }
+    },
+    {
+      "name": "DoctorGemma",
+      "year": 2026,
+      "repo": "https://github.com/pritamexe2k4-cmyk/doctor-gemma-finetuning",
+      "live": null,
+      "one_liner": "Fine-tuning study based on Atharva Taras's DoctorGemma-3; personal extensions in progress.",
+      "stack": ["Gemma 3 4B", "Unsloth", "LoRA", "4-bit quantization", "TRL"],
+      "reference_notebook_metrics": {
+        "steps": 30,
+        "first_logged_training_loss": 5.9254,
+        "last_logged_training_loss": 3.0142,
+        "logged_loss_reduction_percent": 49.1,
+        "trainable_parameters": 14901248,
+        "trainable_parameter_percent": 0.35,
+        "source": "DoctorGemma_FineTune.ipynb saved outputs",
+        "qualification": "Inherited reference-run outputs, not independently verified personal results; eval_dataset=None; no held-out accuracy."
+      }
     }
   ],
   "projects_mentioned_unverified": [
@@ -327,74 +358,21 @@
     }
   ],
   "skills": {
-    "preferred_stack_line": "Python for ML and backends — Pandas, scikit-learn, FastAPI — plus Azure OpenAI for LLM APIs; for product, Next.js, TypeScript, Supabase/Postgres, Docker, Vercel.",
-    "languages": [
-      "Python",
-      "SQL",
-      "JavaScript",
-      "TypeScript"
-    ],
-    "ml_data": [
-      "NumPy",
-      "Pandas",
-      "scikit-learn",
-      "TensorFlow",
-      "Keras",
-      "feature engineering",
-      "EDA",
-      "clustering",
-      "classification",
-      "train/test/CV",
-      "metrics"
-    ],
+    "preferred_stack_line": "Python and SQL; LangChain, LangGraph, LangSmith; TensorFlow, Keras, scikit-learn; NumPy and Pandas; FastAPI, SQLite, PostgreSQL and Supabase.",
+    "languages": ["Python", "SQL"],
+    "ml_data": ["NumPy", "Pandas", "scikit-learn", "TensorFlow", "Keras"],
     "llm_genai": [
-      "Azure OpenAI",
-      "OpenAI Responses API",
-      "prompt engineering",
-      "chat history windowing",
-      "LangChain (learning)",
-      "LangGraph (learning)",
-      "LangSmith (learning)"
+      "LangChain",
+      "LangGraph",
+      "LangSmith",
+      "LoRA fundamentals",
+      "quantization fundamentals"
     ],
-    "apis_backend": [
-      "FastAPI",
-      "Node.js",
-      "Express",
-      "REST APIs"
-    ],
-    "web_product": [
-      "Next.js",
-      "React",
-      "React Native",
-      "Supabase (Auth, RLS, RPC)",
-      "Postgres",
-      "Firebase"
-    ],
-    "cloud_devops": [
-      "Azure (App Service)",
-      "GCP",
-      "Vercel",
-      "Docker",
-      "Git",
-      "GitHub",
-      "GitHub Actions"
-    ],
-    "automation_tools": [
-      "n8n",
-      "Google Apps Script",
-      "Meta Graph API",
-      "WhatsApp API",
-      "Claude Code",
-      "OpenAI Codex",
-      "Shopify"
-    ],
-    "interests": [
-      "Creative thinking",
-      "fitness",
-      "chess",
-      "books",
-      "research"
-    ],
+    "apis_backend": ["FastAPI", "REST APIs"],
+    "web_product": ["Supabase", "PostgreSQL"],
+    "cloud_devops": ["Git", "GitHub Actions"],
+    "automation_tools": ["n8n", "Google Apps Script"],
+    "interests": ["Creative thinking", "fitness", "chess", "books", "research"],
     "on_original_resumes": {
       "2025_08": [
         "Python",
@@ -459,11 +437,7 @@
         "Exploring AI Tools",
         "Travel"
       ],
-      "internshala_2026_08": [
-        "Fitness",
-        "Yoga",
-        "Badminton"
-      ],
+      "internshala_2026_08": ["Fitness", "Yoga", "Badminton"],
       "2026_09_14_resume": [
         "Creative thinking",
         "fitness",
@@ -471,7 +445,8 @@
         "books",
         "research"
       ]
-    }
+    },
+    "current_skills_source": "User corrections and approved resume, 2026-10-12. Historical skills below are source records, not current proficiency claims."
   },
   "certifications": [
     {
@@ -552,24 +527,11 @@
       "Applied AI / GenAI Engineer",
       "Data Analyst / Data Scientist"
     ],
-    "employment_types": [
-      "Full-time",
-      "Paid internship"
-    ],
-    "not_interested_in": [
-      "Unpaid internships"
-    ],
-    "preferred_locations": [
-      "Hyderabad",
-      "Bangalore",
-      "Pune",
-      "Remote (India)"
-    ],
+    "employment_types": ["Full-time", "Paid internship"],
+    "not_interested_in": ["Unpaid internships"],
+    "preferred_locations": ["Hyderabad", "Bangalore", "Pune", "Remote (India)"],
     "current_city": "Hyderabad",
-    "relocation_ok": [
-      "Bangalore",
-      "Pune"
-    ],
+    "relocation_ok": ["Bangalore", "Pune"],
     "remote_india_ok": true,
     "seniority": "Junior / associate",
     "shift_preference": "TODO",
@@ -590,12 +552,7 @@
       "date": "Sep 2025",
       "repo": "TODO",
       "one_liner": "Analysed/benchmarked 10+ multimodal MRI fusion techniques across 8 metrics (PSNR, SSIM, Dice) on 5+ datasets (BraTS, TCIA); documented 96.8% SVM accuracy (fused MRI-SPECT), 0.96 Dice (GAN fusion), 99.24% transformer classification; identified 6+ open challenges, targeting sub-200ms inference.",
-      "stack": [
-        "Python",
-        "PyTorch",
-        "Deep SVDD",
-        "Multi-modal MRI"
-      ],
+      "stack": ["Python", "PyTorch", "Deep SVDD", "Multi-modal MRI"],
       "related_publication": "NeuroFuse (IEEE ICCCMLA 2026)",
       "source": "2026-03/04 original resumes"
     },
@@ -604,12 +561,7 @@
       "date": "Nov 2025",
       "repo": "TODO",
       "one_liner": "LLM credit decisioning engine ingesting GST, ITR, bank statements, annual reports and litigation data to auto-generate Credit Appraisal Memos (lend/no-lend, limit, risk premium); India-specific PDF pipelines + research agent over MCA and e-Courts flagging circular trading, revenue inflation, litigation exposure.",
-      "stack": [
-        "Python",
-        "LLMs",
-        "PDF parsing",
-        "Web scraping"
-      ],
+      "stack": ["Python", "LLMs", "PDF parsing", "Web scraping"],
       "source": "2026-03/04 original resumes, Internshala resume"
     },
     {
@@ -649,10 +601,7 @@
       "date": "2025",
       "repo": "TODO",
       "one_liner": "Python tool with SQLite to store, query and visualise market sales data; interactive analysis for market owners.",
-      "stack": [
-        "Python",
-        "SQLite"
-      ],
+      "stack": ["Python", "SQLite"],
       "source": "2025-08-27 original resume"
     },
     {
@@ -660,9 +609,7 @@
       "date": "2024",
       "repo": "TODO",
       "one_liner": "Python tool converting Excel to CSV with dynamic column selection and filtering; cut manual workload.",
-      "stack": [
-        "Python"
-      ],
+      "stack": ["Python"],
       "source": "2025-08-27 original resume"
     },
     {
@@ -670,13 +617,7 @@
       "date": "May 2025",
       "repo": "TODO",
       "one_liner": "See academic_internship.",
-      "stack": [
-        "Python",
-        "BERT",
-        "ARIMA",
-        "LSTM",
-        "Linear programming"
-      ],
+      "stack": ["Python", "BERT", "ARIMA", "LSTM", "Linear programming"],
       "source": "summer internship report, May 2025"
     }
   ],
@@ -687,5 +628,23 @@
     "Intermediate dates: 2020-2022 vs Jan 2020 - Jan 2022 vs Apr 2020 - May 2022",
     "ICSE dates: 2020 vs Jan 2019 - Jan 2020 vs May 2020",
     "12th board: not stated anywhere"
+  ],
+  "resume": {
+    "path": "public/Preetam_Naik_Resume.pdf",
+    "updated": "2026-10-12",
+    "source": "resume/build_resume.py",
+    "summary": false,
+    "role_title_headline": false
+  },
+  "main_projects": [
+    "NeuroFuse",
+    "DoctorGemma",
+    "Harry Potter Chatbot",
+    "IncluHub Dashboard (Student Dashboard)"
+  ],
+  "resume_priority_projects": [
+    "NeuroFuse",
+    "DoctorGemma",
+    "Harry Potter Chatbot"
   ]
 }

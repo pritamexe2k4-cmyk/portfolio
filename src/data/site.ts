@@ -6,6 +6,7 @@ export const site = {
   email: "pritam.exe2k4@gmail.com",
   github: "https://github.com/pritamexe2k4-cmyk",
   linkedin: "https://www.linkedin.com/in/preetam-naik2k4",
+  resume: "/Preetam_Naik_Resume.pdf",
   hero: {
     before: "I'm Preetam, an AI/ML systems builder based in Hyderabad. ",
     available: "Open",
@@ -44,7 +45,7 @@ export const projects = [
       "A Python learning project with persistent chat threads, LangGraph memory, and repeatable answer-quality evaluations.",
     live: null,
     repo: "https://github.com/pritamexe2k4-cmyk/harry_potter_project",
-    stack: "Python · LangChain · LangGraph · SQLite · OpenAI · LangSmith",
+    stack: "Python · LangChain · LangGraph · SQLite · LangSmith",
     problem:
       "A chatbot needs to continue separate conversations, preserve useful context, and expose unreliable answers before growing into a RAG service.",
     body: [
@@ -59,30 +60,49 @@ export const projects = [
     title: "NeuroFuse Research",
     image: "/media/p3.jpg",
     image2: "/media/work-3.jpg",
-    blurb: "Diffusion-based MRI and CT image fusion for brain-tumour classification research.",
+    blurb:
+      "Diffusion-based MRI and CT image fusion for brain-tumour classification research.",
     live: null,
     repo: "https://github.com/pritamexe2k4-cmyk/MAJOR-PROJECT",
-    stack: "Python · Streamlit · Diffusion models · ConvNeXt-B · Medical imaging",
+    stack:
+      "Python · Streamlit · Diffusion models · ConvNeXt-B · Medical imaging",
     problem:
       "MRI and CT scans provide different clinical information. The research explores whether fusing both modalities produces a more useful input for automated tumour classification.",
     body: [
       "A Diff-IF-based diffusion workflow creates a fused MRI/CT image, preserving complementary visual information before classification.",
       "The research code pairs the fused output with a ConvNeXt-B classifier and a Streamlit interface. It is research software, not a clinical diagnostic tool.",
+      "The team study reported fused-image accuracy of 98.20% with ConvNeXt-B and 98.88% with ViT. CT training data included CycleGAN-generated images; these are reported research results, not a clinical validation claim.",
+    ],
+  },
+  {
+    slug: "doctor-gemma",
+    n: "04",
+    title: "DoctorGemma Fine-Tuning Study",
+    image: "/media/p3.jpg",
+    image2: "/media/work-3.jpg",
+    blurb: "Studying Gemma 3 4B adaptation with LoRA and 4-bit quantization.",
+    live: null,
+    repo: "https://github.com/pritamexe2k4-cmyk/doctor-gemma-finetuning",
+    stack: "Gemma 3 4B · Unsloth · LoRA · 4-bit quantization · TRL",
+    problem:
+      "Understand parameter-efficient fine-tuning and distinguish training progress from answer-quality evaluation.",
+    body: [
+      "Based on Atharva Taras's DoctorGemma-3. Personal extensions are in progress; the inherited notebook is credited to its original author.",
+      "The reference notebook uses HealthCareMagic-100k and updates 14.9M parameters, approximately 0.35% of the model, with LoRA.",
+      "Its saved 30-step run logs training loss falling from 5.9254 to 3.0142 (49.1% lower). No held-out evaluation was reported, so this does not establish improved medical answer accuracy.",
     ],
   },
 ] as const;
 
 export const skillsTicker = [
   "Python",
-  "TypeScript",
   "SQL",
   "FastAPI",
   "scikit-learn",
   "TensorFlow",
   "Keras",
-  "Next.js",
   "Supabase",
-  "Docker",
+  "LangChain",
   "GitHub Actions",
   "LangGraph",
   "LangSmith",
@@ -95,11 +115,11 @@ export const aboutAccordion = [
   },
   {
     t: "②   AI systems",
-    d: "I work with retrieval, agent workflows, APIs, guardrails, and structured outputs when those components serve a real workflow.",
+    d: "Python applications with LangChain, LangGraph and LangSmith, with durable local chat threads and repeatable checks. Source-grounded retrieval is the next development step.",
   },
   {
     t: "③   Product systems",
-    d: "Next.js, React, TypeScript, Supabase, Docker, and GitHub Actions for practical internal tools and role-based workflows.",
+    d: "SQL, Supabase, REST APIs, GitHub Actions, n8n and Google Apps Script for practical internal tools and role-based workflows. Project technology stacks are separate from the programming languages I know: Python and SQL.",
   },
 ] as const;
 
@@ -134,4 +154,9 @@ export const quotes = [
   },
 ];
 
-export const inquiries = ["Internship / full-time", "Project collab", "Referral", "Other"] as const;
+export const inquiries = [
+  "Internship / full-time",
+  "Project collab",
+  "Referral",
+  "Other",
+] as const;
