@@ -288,7 +288,7 @@
       "year": 2026,
       "repo": "https://github.com/pritamexe2k4-cmyk/harry_potter_project",
       "live": null,
-      "one_liner": "Persistent independent chat threads, summaries, recovery, 32 offline tests, 20 evaluation scenarios, and optional LangSmith tracing; source-grounded RAG and multi-user deployment remain future work.",
+      "one_liner": "Local source-grounded RAG assistant over 4,845 passages from seven novels and The Cursed Child, with persistent threads, validated citations, a 60-case benchmark and 88 offline tests; multi-user deployment remains future work.",
       "stack": [
         "Python",
         "LangChain",

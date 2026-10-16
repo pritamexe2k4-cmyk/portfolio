@@ -10,7 +10,7 @@ from reportlab.lib.pagesizes import A4
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer
 from pypdf import PdfReader
 
-ROOT = Path(__file__).resolve().parents[2]
+ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / 'public' / 'Preetam_Naik_Resume.pdf'
 OUT.parent.mkdir(parents=True, exist_ok=True)
 pdfmetrics.registerFont(TTFont('Calibri', 'C:/Windows/Fonts/calibri.ttf'))
@@ -58,8 +58,8 @@ bullet('Built a Next.js and Supabase school dashboard with Admin, Educator and S
 add('PROJECTS', 'section')
 add('Harry Potter Conversational Assistant | ' + link('https://github.com/pritamexe2k4-cmyk/harry_potter_project', 'GitHub'), 'entry')
 add('Python, LangChain, LangGraph, SQLite, LangSmith', 'meta')
-bullet('Implemented persistent, independent chat threads with SQLite archives and LangGraph checkpoints; added bounded history, summaries and interrupted-request recovery.')
-bullet('Built 32 offline tests and 20 synthetic evaluation scenarios covering memory, thread isolation and spoiler boundaries; added optional LangSmith tracing for evaluation runs.')
+bullet('Built a local RAG assistant over 4,845 passages from seven novels and The Cursed Child, using hybrid semantic/BM25 retrieval and source-cited answers.')
+bullet('Implemented LangGraph memory, SQLite chat threads, evidence review, a 60-case RAG benchmark and 88 offline tests covering ingestion, retrieval, citations, recovery and UI behavior.')
 
 add('NeuroFuse | Multimodal Medical Image Fusion | ' + link('https://github.com/pritamexe2k4-cmyk/MAJOR-PROJECT', 'GitHub'), 'entry')
 add('Python, diffusion models, ConvNeXt-B, Vision Transformer, Streamlit', 'meta')

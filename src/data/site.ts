@@ -42,16 +42,16 @@ export const projects = [
     image: "/media/p1.jpg",
     image2: "/media/work-1.jpg",
     blurb:
-      "A Python learning project with persistent chat threads, LangGraph memory, and repeatable answer-quality evaluations.",
+      "A source-grounded Harry Potter RAG assistant over 4,845 passages, with persistent chats and validated citations.",
     live: null,
     repo: "https://github.com/pritamexe2k4-cmyk/harry_potter_project",
     stack: "Python · LangChain · LangGraph · SQLite · LangSmith",
     problem:
-      "A chatbot needs to continue separate conversations, preserve useful context, and expose unreliable answers before growing into a RAG service.",
+      "A lore assistant must retrieve evidence from a large collection, preserve separate conversations, and reject unsupported answers.",
     body: [
-      "Built independent saved chats with SQLite archives and LangGraph checkpoints, restart recovery, and bounded conversation summaries using GPT-4.1 mini.",
-      "Added 32 offline tests and 20 synthetic evaluation scenarios. The baseline exposed spoiler-boundary and summary-retention failures that remain documented; source-grounded RAG is the next learning direction.",
-      "Prepared opt-in LangSmith tracing for synthetic evaluations. Cloud delivery still requires a locally configured key; this is a local application, not a deployed multi-user service.",
+      "Ingested the seven novels and The Cursed Child into eight separate local indexes containing 4,845 passages, then combined semantic and BM25 retrieval for evidence selection.",
+      "Built independent SQLite chats, LangGraph checkpoints, bounded summaries, restart recovery, structured citations, and a second evidence-review step before answers are saved.",
+      "Added a 60-case RAG benchmark and 88 offline tests covering ingestion, retrieval, memory, citations, recovery, evaluation, and the Streamlit interface. It remains a local single-user prototype rather than a deployed service.",
     ],
   },
   {
@@ -115,7 +115,7 @@ export const aboutAccordion = [
   },
   {
     t: "②   AI systems",
-    d: "Python applications with LangChain, LangGraph and LangSmith, with durable local chat threads and repeatable checks. Source-grounded retrieval is the next development step.",
+    d: "Python applications with LangChain, LangGraph and LangSmith, including durable chat threads, source-grounded retrieval, citation validation and repeatable evaluations.",
   },
   {
     t: "③   Product systems",
