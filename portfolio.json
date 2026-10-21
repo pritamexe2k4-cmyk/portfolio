@@ -1,0 +1,137 @@
+{
+  "hero": {
+    "name": "Preetam Naik",
+    "tagline": "AI Engineer · RAG, LangGraph, FastAPI · Hyderabad"
+  },
+  "skills": [
+    "Python",
+    "FastAPI",
+    "LangChain",
+    "LangGraph",
+    "RAG",
+    "AI Agents",
+    "Multi-agent Systems",
+    "LLMs",
+    "Generative AI",
+    "PyTorch",
+    "Deep Learning",
+    "Machine Learning",
+    "Fine-tuning",
+    "Scikit-Learn",
+    "REST APIs",
+    "SQL",
+    "PostgreSQL",
+    "Supabase",
+    "Next.js",
+    "React.js",
+    "React Native",
+    "TypeScript",
+    "n8n",
+    "System Architecture",
+    "Pipelines",
+    "Git"
+  ],
+  "projects": [
+    {
+      "id": "neurofuse",
+      "name": "NeuroFuse",
+      "description": "B.Tech major project (team) at VNRVJIET. A CycleGAN synthesises CT scans from brain MRIs, the Diff-IF diffusion model fuses MRI and CT into one image, and deep-learning classifiers (ConvNeXt, ViT, Swin, DenseNet) detect tumors; fused MRI+CT reached up to 98.88% accuracy. Paper accepted (not yet published) at IEEE ICCCMLA 2026.",
+      "techStack": [
+        "Python",
+        "PyTorch",
+        "CycleGAN",
+        "Diffusion models (Diff-IF)",
+        "ConvNeXt",
+        "Vision Transformer",
+        "Swin",
+        "DenseNet",
+        "Streamlit"
+      ],
+      "liveUrl": "https://drive.google.com/drive/folders/1wp9UU-XJfz4mLs6u239Y8JzC99UmoH8r",
+      "githubUrl": "https://github.com/pritamexe2k4-cmyk/MAJOR-PROJECT"
+    },
+    {
+      "id": "incluhub-student-dashboard",
+      "name": "IncluHub – Programme Workflow Dashboard",
+      "description": "Full-stack role-based dashboard for an inclusive creative-education programme. Admin, educator, student and external-member roles move teams through a 6-stage programme (onboarding to brand works), with portfolio approvals, studio scheduling and brand opportunities. Supabase Postgres with row-level security (32 tables), deployed on Vercel.",
+      "techStack": [
+        "Next.js",
+        "React",
+        "Tailwind",
+        "Supabase",
+        "PostgreSQL",
+        "Vercel"
+      ],
+      "liveUrl": "https://incluhub-dashboard-gamma.vercel.app"
+    },
+    {
+      "id": "doctor-gemma",
+      "name": "DoctorGemma",
+      "description": "LoRA fine-tune of Google Gemma for medical Q&A.",
+      "techStack": [
+        "Gemma 3 4B",
+        "Unsloth",
+        "LoRA",
+        "4-bit quantization",
+        "TRL"
+      ],
+      "githubUrl": "https://github.com/pritamexe2k4-cmyk/doctor-gemma-finetuning"
+    },
+    {
+      "id": "intelli-credit",
+      "name": "Intelli-Credit",
+      "description": "AI credit decisioning engine (with Venkata) that ingests GST, ITR, bank statements, annual reports and litigation data to auto-generate Credit Appraisal Memos with lend/no-lend recommendations, suggested limits and risk premiums for Indian credit workflows. Includes India-specific PDF/data pipelines and a research agent over MCA and e-Courts to detect circular trading, revenue inflation and litigation exposure.",
+      "techStack": [
+        "Python",
+        "LLMs",
+        "Machine Learning",
+        "AI Agents"
+      ]
+    },
+    {
+      "id": "medical-image-fusion-review",
+      "name": "Multimodal Medical Image Fusion for Brain Tumor Detection",
+      "description": "Analysed 10+ multimodal fusion techniques across 8 metrics (PSNR, SSIM, Dice, etc.) on 5+ public datasets (BraTS, TCIA and others). Documented state-of-the-art results and open challenges (data scarcity, registration errors), and outlined directions for sub-200 ms inference.",
+      "techStack": [
+        "Deep Learning",
+        "Streamlit"
+      ]
+    }
+  ],
+  "gallery": [],
+  "reading": [
+    {
+      "title": "Designing Data-Intensive Applications",
+      "author": "Martin Kleppmann",
+      "status": "margin notes everywhere"
+    },
+    {
+      "title": "Deep Learning",
+      "author": "Goodfellow, Bengio & Courville",
+      "status": "the bible, still consulting"
+    },
+    {
+      "title": "The Pragmatic Programmer",
+      "author": "Hunt & Thomas",
+      "status": "changed how I code"
+    },
+    {
+      "title": "Structure and Interpretation of Computer Programs",
+      "author": "Abelson & Sussman",
+      "status": "chapter 4, send help"
+    },
+    {
+      "title": "Attention Is All You Need",
+      "author": "Vaswani et al.",
+      "status": "re-read count: lost track"
+    }
+  ],
+  "chatNotes": "",
+  "contact": {
+    "email": "pritam.exe2k4@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/preetam-naik2k4",
+    "github": "https://github.com/pritamexe2k4-cmyk",
+    "headline": "Let’s build something useful.",
+    "note": "Open to AI Engineer, LLM and GenAI roles."
+  }
+}
