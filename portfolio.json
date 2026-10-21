@@ -33,27 +33,22 @@
   ],
   "projects": [
     {
-      "id": "neurofuse",
-      "name": "NeuroFuse",
-      "description": "B.Tech major project (team) at VNRVJIET. A CycleGAN synthesises CT scans from brain MRIs, the Diff-IF diffusion model fuses MRI and CT into one image, and deep-learning classifiers (ConvNeXt, ViT, Swin, DenseNet) detect tumors; fused MRI+CT reached up to 98.88% accuracy. Paper accepted (not yet published) at IEEE ICCCMLA 2026.",
+      "id": "doctor-gemma",
+      "name": "DoctorGemma – LoRA Fine-Tuning of Gemma-3 4B",
+      "description": "LoRA fine-tuning study of Gemma-3 4B (4-bit, Unsloth, Hugging Face TRL SFTTrainer) on the HealthCareMagic-100k doctor-patient QA dataset, based on Atharva Taras's DoctorGemma-3 (Apache-2.0); my extensions are in progress. Reference run: training loss 5.93 → 3.01 over 30 steps (no held-out eval yet).",
       "techStack": [
-        "Python",
-        "PyTorch",
-        "CycleGAN",
-        "Diffusion models (Diff-IF)",
-        "ConvNeXt",
-        "Vision Transformer",
-        "Swin",
-        "DenseNet",
-        "Streamlit"
+        "Gemma 3 4B",
+        "Unsloth",
+        "LoRA",
+        "4-bit quantization",
+        "TRL"
       ],
-      "liveUrl": "https://drive.google.com/drive/folders/1wp9UU-XJfz4mLs6u239Y8JzC99UmoH8r",
-      "githubUrl": "https://github.com/pritamexe2k4-cmyk/MAJOR-PROJECT"
+      "githubUrl": "https://github.com/pritamexe2k4-cmyk/doctor-gemma-finetuning"
     },
     {
       "id": "incluhub-student-dashboard",
       "name": "IncluHub – Programme Workflow Dashboard",
-      "description": "Full-stack role-based dashboard for an inclusive creative-education programme. Admin, educator, student and external-member roles move teams through a 6-stage programme (onboarding to brand works), with portfolio approvals, studio scheduling and brand opportunities. Supabase Postgres with row-level security (32 tables), deployed on Vercel.",
+      "description": "Full-stack role-based dashboard for an inclusive creative-education programme. Admin, educator, student and external-member roles move teams through a 6-stage programme (onboarding to brand works), with portfolio approvals, studio scheduling and brand opportunities. Built with Next.js, React, Tailwind and Supabase (Postgres with row-level security, 32 tables), deployed on Vercel.",
       "techStack": [
         "Next.js",
         "React",
@@ -65,37 +60,37 @@
       "liveUrl": "https://incluhub-dashboard-gamma.vercel.app"
     },
     {
-      "id": "doctor-gemma",
-      "name": "DoctorGemma",
-      "description": "LoRA fine-tune of Google Gemma for medical Q&A.",
-      "techStack": [
-        "Gemma 3 4B",
-        "Unsloth",
-        "LoRA",
-        "4-bit quantization",
-        "TRL"
-      ],
-      "githubUrl": "https://github.com/pritamexe2k4-cmyk/doctor-gemma-finetuning"
-    },
-    {
-      "id": "intelli-credit",
-      "name": "Intelli-Credit",
-      "description": "AI credit decisioning engine (with Venkata) that ingests GST, ITR, bank statements, annual reports and litigation data to auto-generate Credit Appraisal Memos with lend/no-lend recommendations, suggested limits and risk premiums for Indian credit workflows. Includes India-specific PDF/data pipelines and a research agent over MCA and e-Courts to detect circular trading, revenue inflation and litigation exposure.",
+      "id": "neurofuse",
+      "name": "NeuroFuse – Diffusion-Based MRI+CT Fusion for Brain Tumor Classification (IEEE ICCCMLA 2026)",
+      "description": "Team B.Tech project (5 students). CycleGAN synthesises CT from MRI; the Diff-IF diffusion model (DDIM sampling) fuses MRI + CT; PyTorch classifiers reach 98.2% (ConvNeXt-B) and 98.9% (ViT) accuracy, served per patient in a Streamlit app. Research software, not a clinical tool. Paper accepted (not yet published) at IEEE ICCCMLA 2026.",
       "techStack": [
         "Python",
-        "LLMs",
-        "Machine Learning",
-        "AI Agents"
-      ]
+        "PyTorch",
+        "CycleGAN",
+        "Diff-IF (DDIM)",
+        "ConvNeXt-B",
+        "Vision Transformer",
+        "Streamlit"
+      ],
+      "githubUrl": "https://github.com/pritamexe2k4-cmyk/MAJOR-PROJECT"
+    }
+  ],
+  "experience": [
+    {
+      "role": "AI Orchestrator",
+      "company": "IncluHub",
+      "type": "Full-time",
+      "dates": "Jul 2026 – Aug 2026",
+      "location": "Hyderabad (Hybrid)",
+      "description": "Helped ship IncluHub's fashion app live to ~1,000–3,000 users and a Student Dashboard for ~40–50 students and 4–5 educators. Built n8n + REST API pipelines unifying Meta Graph, WhatsApp and Ads APIs into one flow for ads, leads and follow-ups, and internal CRM tools that replaced 7–8 Google Sheets and lifted sales-team throughput 50%+."
     },
     {
-      "id": "medical-image-fusion-review",
-      "name": "Multimodal Medical Image Fusion for Brain Tumor Detection",
-      "description": "Analysed 10+ multimodal fusion techniques across 8 metrics (PSNR, SSIM, Dice, etc.) on 5+ public datasets (BraTS, TCIA and others). Documented state-of-the-art results and open challenges (data scarcity, registration errors), and outlined directions for sub-200 ms inference.",
-      "techStack": [
-        "Deep Learning",
-        "Streamlit"
-      ]
+      "role": "Artificial Intelligence Intern",
+      "company": "IncluHub",
+      "type": "Internship",
+      "dates": "Mar 2026 – May 2026",
+      "location": "On-site",
+      "description": "Joined as an AI intern working across product, sales, marketing and education teams; built the first n8n automation pipelines and CRM tooling, which led to the AI Orchestrator role."
     }
   ],
   "gallery": [],
